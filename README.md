@@ -1,1 +1,1402 @@
-return(function(k4,b4,A4,l2,o4,E2,U4,P2,C4,Z4,p4,a4,c4,W2,Q4,F4,H4,M4,n4,w2,d4,T4,S4,Y4,Q2,W4,G4,K4,g2,m4,N4,s4,h4,X4,B4,i4,z4,R4,x2,z2,q4,u4,V4,v4,r4,L4,x4,j4,O2,y4,D4,f4,e2,I4,J4,t4,E4,...)local d=(W4 or z4[E4]);local g=(Q4);local W=y4;local l=u4;local y,u=T4[C4],T4[s4];local P,e=n4,U4;local z=T4[S4];local E,x,Q=T4[d4],T4[t4],T4[p4];local w=A4;local T,C,s,U=z4[a4],o4,D4,(N4);local O=B4;local t=(v4);local p=(Y4);local A,a,o,D,N=H4,H4,H4,H4,H4;for dQ=0,5 do if dQ<=2 then if not(dQ<=0)then do if dQ==1 then else a={};end;end;else A=(p and p()or G4);end;else if not(dQ<=3)then do if dQ~=4 then else end;end;else o=1;end;end;end;local w4=4;local B,v,Y,H,G=H4,H4,H4,H4,(H4);while w4<=5 do if not(w4<=2)then if not(w4<=3)then if w4==4 then B=J4;w4=0;else Y=function()local Ag=H4;for Xp=0,2 do do if not(Xp<=0)then do if Xp~=1 then return Ag;else o=o+1;end;end;else do Ag=E(B,o,o);end;end;end;end;end;w4=2;end;else G=2147483648;w4=6;end;else do if not(w4<=0)then do if w4~=1 then H=function()local GE=1;local jE,UE,sE,fE=H4,H4,H4,(H4);while(f4)do do if GE<=0 then o=o+4;GE=2;else if GE~=1 then do return fE*16777216+sE*65536+UE*256+jE;end;else do jE,UE,sE,fE=E(B,o,o+3);end;GE=0;end;end;end;end;end;do w4=3;end;else B=y(z(B,5),F4,function(gX)if E(gX,2)~=72 then local L0=(1);local K0=(H4);while L0<=1 do if L0~=0 then K0=x(g(gX,16));do L0=0;end;else if v then local DR=Q(K0,v);v=H4;return DR;else return K0;end;L0=2;end;end;else local N6=0;repeat if N6~=0 then do return L4;end;else v=g(z(gX,1,1));N6=1;end;until(j4);end;end);w4=5;end;end;else do w4=1;end;end;end;end;end;do w4=3;end;local F,L,j,f=H4,H4,H4,H4;while w4<=4 do if not(w4<=1)then if not(w4<=2)then if w4~=3 then do f={[0]=1};end;w4=2;else F=4294967296;w4=0;end;else do local dU=2;do for Pi=1,31 do f[Pi]=dU;do dU=dU*2;end;end;end;end;do w4=5;end;end;else do if w4==0 then L=2^52;w4=1;else j=F-1;w4=4;end;end;end;end;w4=2;local J,R,X,c=H4,H4,H4,(H4);while w4<=3 do if not(w4<=1)then if w4~=2 then X=function()local Pn,hn=H4,(H4);do for Vi=0,1 do do if Vi~=0 then hn=H();else Pn=H();end;end;end;end;if not(Pn==0 and hn==0)then else do return 0;end;end;local cn=((-1)^J(1,hn,31));local zn=(J(11,hn,20));local on=J(20,hn,0)*F+Pn;local An,Zn=0,H4;while(f4)do do if An<=0 then Zn=1;An=2;else if An~=1 then do if zn==0 then if on~=0 then local ZS=(0);while ZS<2 do if ZS~=0 then Zn=0;do ZS=2;end;else zn=1;ZS=1;end;end;else do return cn*0;end;end;elseif zn==2047 then if on~=0 then return cn*(1/0);else do return cn*(0/0);end;end;end;end;An=1;else return cn*(2^(zn-1023))*(on/L+Zn);end;end;end;end;end;do w4=1;end;else J=function(Ql,Cl,Ml)local Rl=(H4);local Ol=2;repeat if not(Ol<=0)then if Ol~=1 then do Rl=(Cl/f[Ml])%f[Ql];end;Ol=0;else return Rl;end;else Rl=Rl-Rl%1;do Ol=1;end;end;until(j4);end;w4=0;end;else if w4~=0 then c={[0]={[0]=0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15},{[0]=1,0,3,2,5,4,7,6,9,8,11,10,13,12,15,14},{[0]=2,3,0,1,6,7,4,5,10,11,8,9,14,15,12,13},{[0]=3,2,1,0,7,6,5,4,11,10,9,8,15,14,13,12},{[0]=4,5,6,7,0,1,2,3,12,13,14,15,8,9,10,11},{[0]=5,4,7,6,1,0,3,2,13,12,15,14,9,8,11,10},{[0]=6,7,4,5,2,3,0,1,14,15,12,13,10,11,8,9},{[0]=7,6,5,4,3,2,1,0,15,14,13,12,11,10,9,8},{[0]=8,9,10,11,12,13,14,15,0,1,2,3,4,5,6,7},{[0]=9,8,11,10,13,12,15,14,1,0,3,2,5,4,7,6},{[0]=10,11,8,9,14,15,12,13,2,3,0,1,6,7,4,5},{[0]=11,10,9,8,15,14,13,12,3,2,1,0,7,6,5,4},{[0]=12,13,14,15,8,9,10,11,4,5,6,7,0,1,2,3},{[0]=13,12,15,14,9,8,11,10,5,4,7,6,1,0,3,2},{[0]=14,15,12,13,10,11,8,9,6,7,4,5,2,3,0,1},{[0]=15,14,13,12,11,10,9,8,7,6,5,4,3,2,1,0}};w4=4;else R=function()local IG,uG=H(),H();local FG=0;repeat if FG~=0 then return uG*F+IG;else if not(uG>=G)then else uG=uG-F;end;FG=1;end;until(j4);end;w4=3;end;end;end;local K=((R4 or X4));local q=K and K[c4]or function(S1,Y1)local F1=2;local T1,e1=H4,H4;while(f4)do if not(F1<=2)then if F1<=3 then do e1=0;end;do F1=0;end;else if F1~=4 then Y1=Y1%F;F1=4;else do T1=1;end;F1=3;end;end;else if not(F1<=0)then if F1~=1 then S1=S1%F;do F1=5;end;else do return e1+S1*T1+Y1*T1;end;end;else do while S1>0 and Y1>0 do local D7,q7,J7=2,H4,H4;while D7<=2 do if not(D7<=0)then if D7~=1 then do q7=S1%16;end;D7=0;else e1=e1+c[q7][J7]*T1;do D7=3;end;end;else do J7=Y1%16;end;do D7=1;end;end;end;do S1=(S1-q7)/16;end;for FX=0,1 do if FX~=0 then T1=T1*16;else do Y1=(Y1-J7)/16;end;end;end;end;end;F1=1;end;end;end;end;local Z=(K and K[K4]or function(V9,D9)do V9=V9%F;end;D9=D9%F;return((V9+D9)-q(V9,D9))/2;end);local b=K and K[q4]or function(Bk,vk)local Mk=(2);while(f4)do if not(Mk<=0)then if Mk~=1 then Bk=Bk%F;Mk=1;else vk=vk%F;Mk=0;end;else return j-Z(j-Bk,j-vk);end;end;end;local k=(K and K[Z4]);local h=K and K[b4];local m=(K and K[m4]or function(nK)return j-(nK%F);end);w4=0;local I,M=H4,(H4);repeat if not(w4<=2)then if w4<=3 then N=Y();break;else if w4~=4 then M=function(b_)local z_,p_,G_=3,H4,(H4);repeat if not(z_<=1)then if not(z_<=2)then if z_~=3 then return G_;else p_=H();z_=0;end;else for wE=1,p_,7997 do local IE=(wE+7997-1);if IE>p_ then IE=p_;end;local ZE=({E(B,o+wE-1,o+IE-1)});for o8=1,#ZE do do(ZE)[o8]=q(ZE[o8],D);end;do D=(b_*D+151)%256;end;end;do G_=G_..x(d(ZE));end;end;z_=1;end;else if z_~=0 then o=o+p_;do z_=4;end;else G_=L4;z_=2;end;end;until(j4);end;w4=1;else I=function(YS)local vS=({E(B,o,o+3)});local iS,oS=H4,(H4);for QG=0,1 do do if QG~=0 then oS=q(vS[2],N);else iS=q(vS[1],N);end;end;end;local RS=q(vS[3],N);local wS=q(vS[4],N);N=(201*N+YS)%256;local HS=1;while(f4)do if HS~=0 then do o=o+4;end;HS=0;else return wS*16777216+RS*h4+oS*256+iS;end;end;end;w4=5;end;end;else do if not(w4<=0)then if w4~=1 then k=k or function(Mg,gg)do if not(gg>=32)then else do return 0;end;end;end;local Ag=H4;local ig=(1);while(f4)do if not(ig<=0)then if ig==1 then do if gg<0 then return h(Mg,-gg);end;end;ig=2;else Ag=(Mg%F/f[gg]);ig=0;end;else do return Ag-Ag%1;end;end;end;end;w4=4;else do D=Y();end;w4=3;end;else do h=h or function(Kb,rb)do for Av=0,2 do do if not(Av<=0)then if Av~=1 then return(Kb*f[rb])%F;else if rb<0 then return k(Kb,-rb);end;end;else if not(rb>=32)then else return 0;end;end;end;end;end;end;end;w4=2;end;end;end;until(j4);w4=4;local r,i,V,O4,l4=H4,H4,H4,H4,H4;do while w4<=5 do if not(w4<=2)then if not(w4<=3)then do if w4~=4 then for Kf=1,Y()do local Bf=H4;local wf=(0);while wf~=3 do do if wf<=0 then Bf={};wf=2;else if wf~=1 then r[Kf-1]=Bf;wf=1;else for TM=1,Y()do local jM,KM,FM=2,H4,(H4);repeat if jM<=1 then do if jM==0 then Bf[FM+1]=J(4,KM,4);do jM=4;end;else(Bf)[FM]=J(4,KM,0);jM=0;end;end;else if jM==2 then KM=Y();jM=3;else do FM=(TM-1)*2;end;jM=1;end;end;until jM==4;end;do wf=3;end;end;end;end;end;end;w4=1;else r={};do w4=5;end;end;end;else V={};w4=2;end;else do if not(w4<=0)then do if w4~=1 then O4=1;w4=0;else i=function(...)return l(k4,...),{...};end;w4=3;end;end;else l4={};w4=6;end;end;end;end;end;do w4=1;end;local g4,P4,e4=H4,H4,(H4);while w4~=4 do if not(w4<=1)then if w4~=2 then function P4()local vd,Pd,wd,Hd=H4,H4,H4,H4;local Nd=0;while(f4)do if not(Nd<=1)then do if not(Nd<=2)then if Nd~=3 then Hd=1;break;else wd={};Nd=4;end;else do vd={H4,H4,{},{},{},H4,H4,H4,H4};end;Nd=1;end;end;else if Nd~=0 then Pd={};Nd=3;else do Nd=2;end;end;end;end;Nd=0;local Yd,Td=H4,H4;while Nd<=3 do if not(Nd<=1)then do if Nd==2 then Td=Y();Nd=1;else do Yd=H()-133777;end;Nd=2;end;end;else do if Nd~=0 then for T0=1,Yd do local d0,N0=H4,(H4);for u1=0,1 do if u1~=0 then N0=I(Td);else d0={H4,H4,H4,H4,H4,H4,H4,H4,H4,H4};end;end;local I0=(1);while(f4)do do if not(I0<=8)then if not(I0<=13)then if not(I0<=15)then if I0<=16 then d0[1]=J(8,N0,6);break;else if I0~=17 then(d0)[1]=J(8,N0,6);I0=11;else(d0)[3]=J(9,N0,23);I0=16;end;end;else do if I0==14 then(d0)[1]=J(8,N0,6);do I0=4;end;else do(d0)[18]=J(1,N0,8);end;I0=17;end;end;end;else do if not(I0<=10)then if not(I0<=11)then if I0~=12 then do d0[18]=J(1,N0,8);end;I0=15;else do(d0)[3]=J(9,N0,23);end;I0=4;end;else do d0[6]=Y();end;I0=15;end;else if I0~=9 then do d0[13]=J(28,N0,13);end;do I0=4;end;else do(d0)[10]=J(9,N0,14);end;I0=11;end;end;end;end;else if not(I0<=3)then if not(I0<=5)then do if not(I0<=6)then do if I0~=7 then d0[5]=J(18,N0,14);I0=17;else d0[1]=J(8,N0,6);do I0=17;end;end;end;else d0[5]=J(18,N0,14);do I0=9;end;end;end;else if I0==4 then do(d0)[18]=J(1,N0,8);end;do I0=5;end;else d0[6]=Y();I0=7;end;end;else if not(I0<=1)then if I0~=2 then(d0)[10]=J(9,N0,14);I0=19;else d0[18]=J(1,N0,8);I0=7;end;else do if I0==0 then(d0)[1]=J(8,N0,6);do I0=12;end;else(d0)[13]=J(28,N0,13);do I0=6;end;end;end;end;end;end;end;end;vd[3][T0]=d0;end;Nd=4;else(vd)[7]=Y();Nd=3;end;end;end;end;local Qd=H()-133768;local Ud=Y();local kd=Y()~=0;do for lo=1,Qd do local To=1;local po,Ro=H4,H4;while(f4)do if To~=0 then To=0;else Ro=Y();do break;end;end;end;To=3;while To~=4 do do if not(To<=1)then if To~=2 then if Ro==79 then po=X()+H();elseif Ro==11 then po=z(M(Ud),4);elseif Ro==50 then do po=X();end;elseif Ro==228 then po=X();elseif Ro==26 then do po=f4;end;elseif Ro==64 then do po=z(M(Ud),Y());end;elseif Ro==58 then po=R();elseif Ro==47 then po=X();elseif Ro==92 then po=X();elseif Ro==238 then do po=R();end;elseif Ro==177 then po=j4;elseif Ro~=220 then else po=z(M(Ud),Y());end;To=4;else if Ro==79 then po=X()+H();elseif Ro==11 then po=z(M(Ud),4);elseif Ro==50 then po=X();elseif Ro==228 then po=X();elseif Ro==26 then do po=f4;end;elseif Ro==64 then po=z(M(Ud),Y());elseif Ro==58 then po=R();elseif Ro==47 then po=X();elseif Ro==92 then po=X();elseif Ro==238 then po=R();elseif Ro==Q2 then po=j4;elseif Ro~=220 then else do po=z(M(Ud),Y());end;end;do To=3;end;end;else if To~=0 then if Ro==79 then do po=X()+H();end;elseif Ro==11 then po=z(M(Ud),4);elseif Ro==50 then po=X();elseif Ro==228 then po=X();elseif Ro==26 then po=f4;elseif Ro==64 then po=z(M(Ud),Y());elseif Ro==58 then po=R();elseif Ro==47 then po=X();elseif Ro==92 then po=X();elseif Ro==238 then po=R();elseif Ro==177 then po=j4;elseif Ro~=220 then else po=z(M(Ud),Y());end;To=4;else if Ro==79 then po=X()+H();elseif Ro==11 then po=z(M(Ud),4);elseif Ro==50 then po=X();elseif Ro==228 then po=X();elseif Ro==26 then po=f4;elseif Ro==64 then po=z(M(Ud),Y());elseif Ro==58 then do po=R();end;elseif Ro==47 then po=X();elseif Ro==92 then po=X();elseif Ro==238 then do po=R();end;elseif Ro==177 then po=j4;elseif Ro~=220 then else po=z(M(Ud),Y());end;do To=0;end;end;end;end;end;Pd[lo-1]=Hd;local oo={po,{}};do To=0;end;while To<3 do if not(To<=0)then if To~=1 then if not(kd)then else(V)[O4]=oo;O4=O4+1;end;To=3;else Hd=Hd+1;To=2;end;else(wd)[Hd]=oo;To=1;end;end;end;end;do Nd=0;end;while(f4)do if Nd~=0 then vd[1]=Y();break;else(vd)[12]=H();Nd=1;end;end;local Xd=r[vd[1]];Nd=2;local Sd=H4;repeat do if not(Nd<=0)then if Nd~=1 then do for pR=1,Yd do local qR=1;local YR,PR=H4,(H4);local nR=(vd[3][pR]);repeat if not(qR<=1)then do if qR~=2 then do if not((YR==2 or PR)and nR[10]>255)then else local MZ=1;local lZ=(H4);while(f4)do if MZ~=0 then do nR[8]=f4;end;MZ=0;else do lZ=Pd[nR[10]-256];end;break;end;end;local VZ=wd[lZ];if not(VZ)then else local Zz=H4;for CE=0,2 do if not(CE<=0)then if CE~=1 then(Zz)[#Zz+1]={nR,7};else Zz=VZ[2];end;else nR[7]=VZ[1];end;end;end;end;end;qR=4;else do if not((YR==15 or PR)and nR[3]>255)then else(nR)[9]=f4;local mm=(1);local wm=(H4);local um=(Pd[nR[3]-256]);do while mm<2 do if mm~=0 then wm=wd[um];mm=0;else if not(wm)then else local ue=2;local se=(H4);repeat if not(ue<=0)then if ue~=1 then nR[4]=wm[1];ue=0;else(se)[#se+1]={nR,4};do break;end;end;else do se=wm[2];end;ue=1;end;until(j4);end;mm=2;end;end;end;end;end;qR=3;end;end;else if qR~=0 then YR=Xd[nR[6]];qR=0;else PR=YR==9;qR=2;end;end;until qR>3;do for af=0,1 do if af~=0 then if YR~=3 then else nR[5]=pR+(nR[5]-131071)+1;end;else do if YR~=4 then else local gu=(Pd[nR[5]]);local Qu=wd[gu];do if not(Qu)then else nR[2]=Qu[1];local Py=H4;local jy=(1);do repeat if jy~=0 then do Py=Qu[2];end;do jy=0;end;else do Py[#Py+1]={nR,2};end;jy=2;end;until jy>1;end;end;end;end;end;end;end;end;end;end;Nd=1;else do Sd=Y();end;do Nd=0;end;end;else(vd)[8]=J(1,Sd,1)~=0;do Nd=3;end;end;end;until Nd==3;(vd)[2]=J(1,Sd,2)~=0;local Zd=(H());for rn=1,Zd do(vd[5])[rn-1]=P4();end;Nd=1;while Nd~=2 do do if Nd~=0 then do vd[9]=Y();end;do Nd=0;end;else(vd)[14]=H();do Nd=2;end;end;end;end;do Nd=1;end;local Id=(H4);do while(f4)do do if not(Nd<=1)then if Nd~=2 then vd[6]=Y();do Nd=2;end;else do(vd)[16]=Y();end;break;end;else if Nd~=0 then Id=H();Nd=0;else do for qk=1,Id do local Pk,gk,Xk,Mk=2,H4,H4,(H4);while Pk<=3 do if not(Pk<=1)then do if Pk==2 then gk=H();do Pk=0;end;else for Bh=gk,Xk do do(vd[4])[Bh]=Mk;end;end;do Pk=4;end;end;end;else if Pk~=0 then Mk=H();Pk=3;else Xk=H();Pk=1;end;end;end;end;end;Nd=3;end;end;end;end;end;return vd;end;w4=0;else function g4(gC,AC,XC)local KC=(gC[3]);local kC=gC[9];local OC=gC[6];local LC,NC,TC,CC=gC[4],gC[8],gC[2],(gC[1]);local sC=gC[5];local IC=(C({},{[I4]=M4}));local jC=(H4);jC=function(...)local Xf,Tf=0,(1);local Wf=({});local Rf=(p and p()or G4);local xf=(Rf==A and AC or Rf);local Yf,vf=i(...);Yf=Yf-1;do for kP=0,Yf do if not(kC>kP)then break;else do Wf[kP]=vf[kP+1];end;end;end;end;l4[3]=gC;(l4)[1]=Wf;if not NC then vf=H4;elseif not(TC)then else(Wf)[kC]={n=Yf>=kC and Yf-kC+1 or 0,d(vf,kC+1,Yf+1)};end;if xf==Rf then else if not(t)then G4=xf;else t(jC,xf);end;end;local rf,qf,df,Ff=P(function()while true do local M0=(KC[Tf]);local O0=M0[6];Tf=Tf+1;if not(O0<58)then if not(O0<87)then if not(O0<102)then if not(O0>=109)then if not(O0>=105)then if not(O0>=103)then Wf[M0[1]]=M0[4]%M0[7];else if O0~=104 then local CQ=(Wf[M0[3]]/Wf[M0[10]]);(Wf)[M0[1]]=CQ-CQ%1;else local VM=M0[1];local uM=(Wf[VM+2]);local kM=Wf[VM]+uM;do(Wf)[VM]=kM;end;if not(uM>0)then if not(kM>=Wf[VM+1])then else Tf=M0[5];do(Wf)[VM+3]=kM;end;end;else if not(kM<=Wf[VM+1])then else do Tf=M0[5];end;Wf[VM+3]=kM;end;end;end;end;else if not(O0>=107)then if O0~=106 then Wf[M0[1]]=f4;Tf=Tf+1;else if M0[10]~=191 then(Wf)[M0[1]]=vf[kC+1];else do Tf=Tf-1;end;(KC)[Tf]={[3]=(M0[3]-189)%256,[6]=13,[1]=(M0[1]-e2)%256};end;end;else if O0~=108 then Wf[M0[1]]=Wf[M0[3]]/Wf[M0[10]];else do Wf[M0[1]]=Wf[M0[3]]/M0[7];end;end;end;end;else do if not(O0<113)then if O0>=115 then if O0==116 then(Wf)[M0[1]]={d({},1,M0[3])};else if not(Wf[M0[3]]<=M0[7])then else Tf=Tf+1;end;end;else do if O0==114 then local C0=(XC[M0[3]]);(Wf)[M0[1]]=C0[1][C0[2]];else local eh,Mh=M0[1],(M0[3]);Xf=eh+Mh-1;repeat local RK,uK=IC,Wf;if not(#RK>0)then else local A1={};for Qg,Jg in x4,RK do for Ah,Ih in x4,Jg do if Ih[1]==uK and Ih[2]>=0 then local eV=(Ih[2]);do if not A1[eV]then A1[eV]={uK[eV]};end;end;(Ih)[1]=A1[eV];Ih[2]=1;end;end;end;end;until f4;return f4,eh,Mh;end;end;end;else do if not(O0<111)then do if O0==P2 then(Wf[M0[1]])[Wf[M0[3]]]=M0[7];else if M0[4]==Wf[M0[10]]then else Tf=Tf+1;end;end;end;else if O0~=g2 then Wf[M0[1]]=M0[4]+Wf[M0[10]];else for vn=M0[1],M0[3]do Wf[vn]=H4;end;end;end;end;end;end;end;else if O0<94 then if not(O0>=90)then do if not(O0<88)then if O0~=89 then local Eb=((M0[10]-1)*50);local gb=M0[1];for jV=1,M0[3]do(Wf[gb])[Eb+jV]=Wf[gb+jV];end;else if not(M0[4]<Wf[M0[10]])then Tf=Tf+1;end;end;else(Wf)[M0[1]]=Wf[M0[3]]~=M0[7];end;end;else if not(O0<92)then if O0==93 then(Wf)[M0[1]]=M0[4]-Wf[M0[10]];else do Tf=M0[5];end;end;else if O0~=91 then do Wf[M0[1]]=m(Wf[M0[3]]);end;else repeat local CB,wB=IC,Wf;if#CB>0 then local bA={};for GC,yC in x4,CB do for f7,X7 in x4,yC do if not(X7[1]==wB and X7[2]>=0)then else local m6=(X7[2]);do if not(not bA[m6])then else(bA)[m6]={wB[m6]};end;end;X7[1]=bA[m6];(X7)[2]=1;end;end;end;end;until f4;do return f4,M0[1],1;end;end;end;end;else if not(O0>=98)then if not(O0>=96)then if O0==95 then Wf[M0[1]]=k(M0[4],M0[7]);else local BI=(Wf[M0[3]]/M0[7]);Wf[M0[1]]=BI-BI%1;end;else if O0==97 then Wf[M0[1]]=M0[4]/M0[7];else if not(not(Wf[M0[3]]<=Wf[M0[10]]))then else Tf=Tf+1;end;end;end;else if not(O0<100)then if O0==101 then local a0=Wf[M0[10]];local Q0,y0=M0[1],(Wf[M0[3]]);do Wf[Q0+1]=y0;end;Wf[Q0]=y0[a0];else Wf[M0[1]]=Wf[M0[3]]<=Wf[M0[10]];end;else do if O0~=99 then local zh=(M0[10]-1)*50;local th=(M0[1]);for pE=1,Xf-th do do(Wf[th])[zh+pE]=Wf[th+pE];end;end;else local uU=(M0[1]);local NU,fU=uU+1,(uU+2);Wf[uU]=O(g(Wf[uU]),V4);Wf[NU]=O(g(Wf[NU]),O2);(Wf)[fU]=O(g(Wf[fU]),l2);do Wf[uU]=Wf[uU]-Wf[fU];end;Tf=M0[5];end;end;end;end;end;end;else if not(O0<72)then if not(O0>=79)then if not(O0<75)then if not(O0<77)then if O0==78 then do(Wf)[M0[1]]=q(Wf[M0[3]],M0[7]);end;else do(Wf[M0[1]])[M0[4]]=M0[7];end;end;else do if O0==76 then Wf[M0[1]]=Wf[M0[3]]<Wf[M0[10]];else(Wf)[M0[1]]=f4;end;end;end;else if O0<73 then do(Wf)[M0[1]]=Wf[M0[3]]~=Wf[M0[10]];end;else if O0~=74 then do if M0[4]==M0[7]then else Tf=Tf+1;end;end;else if not(not(Wf[M0[3]]<M0[7]))then else Tf=Tf+1;end;end;end;end;else if not(O0>=83)then if not(O0>=81)then if O0~=80 then(Wf[M0[1]])[M0[4]]=Wf[M0[10]];else Wf[M0[1]]=M0[2];end;else if O0~=82 then(Wf)[M0[1]]=Wf[M0[3]]>=Wf[M0[10]];else if not(Wf[M0[3]]<=M0[7])then Tf=Tf+1;end;end;end;else if not(O0<85)then if O0==86 then local ZZ=(M0[1]);(Wf[ZZ])(Wf[ZZ+1]);do Xf=ZZ-1;end;else if Wf[M0[3]]==M0[7]then else Tf=Tf+1;end;end;else if O0==84 then do if M0[10]~=133 then repeat local Go,Po,No=IC,Wf,M0[1];if not(#Go>0)then else local M9=({});for GU,oU in x4,Go do do for IW,MW in x4,oU do do if not(MW[1]==Po and MW[2]>=No)then else local gc=MW[2];if not(not M9[gc])then else do(M9)[gc]={Po[gc]};end;end;(MW)[1]=M9[gc];(MW)[2]=1;end;end;end;end;end;end;until f4;else do Tf=Tf-1;end;KC[Tf]={[1]=(M0[1]-142)%256,[6]=66,[3]=(M0[3]-142)%256};end;end;else local m0=(M0[1]);(Wf)[m0]=Wf[m0](d(Wf,m0+1,Xf));Xf=m0;end;end;end;end;else do if not(O0>=65)then if O0>=61 then if not(O0<63)then if O0==64 then local Ly=Wf[M0[3]];do if not(not Ly)then(Wf)[M0[1]]=Ly;else do Tf=Tf+1;end;end;end;else do Wf[M0[1]]=Wf[M0[3]]==Wf[M0[10]];end;end;else if O0==62 then Wf[M0[1]]=Wf[M0[3]]+Wf[M0[10]];else(Wf)[M0[1]]=M0[4]>M0[7];end;end;else do if not(O0>=59)then Wf[M0[1]]=M0[4]==M0[7];else if O0~=60 then(xf)[M0[2]]=Wf[M0[1]];else local LI=(M0[1]);Wf[LI](Wf[LI+1],Wf[LI+2]);Xf=LI-1;end;end;end;end;else do if not(O0<68)then if not(O0>=70)then if O0==69 then repeat local lZ,jZ=IC,Wf;if#lZ>0 then local qw={};for H6,b6 in x4,lZ do for TW,mW in x4,b6 do if mW[1]==jZ and mW[2]>=0 then local S1=mW[2];if not(not qw[S1])then else(qw)[S1]={jZ[S1]};end;(mW)[1]=qw[S1];(mW)[2]=1;end;end;end;end;until f4;return f4,M0[1],0;else local I_=M0[10];local K_,m_=M0[1],M0[3];if m_==0 then else do Xf=K_+m_-1;end;end;local v_,D_=H4,(H4);if m_==1 then v_,D_=i(Wf[K_]());else do v_,D_=i(Wf[K_](d(Wf,K_+1,Xf)));end;end;if I_==1 then Xf=K_-1;else do if I_==0 then v_=v_+K_-1;Xf=v_;else do v_=K_+I_-2;end;do Xf=v_+1;end;end;end;local T1=0;for tf=K_,v_ do T1=T1+1;do(Wf)[tf]=D_[T1];end;end;end;end;else if O0==71 then Wf[M0[1]]=M0[4]^M0[7];else do(Wf)[M0[1]]=H4;end;end;end;else do if not(O0>=66)then local Zs=(M0[1]);do Xf=Zs+M0[3]-1;end;(Wf)[Zs]=Wf[Zs](d(Wf,Zs+1,Xf));Xf=Zs;else if O0==67 then Wf[M0[1]]=Wf[M0[3]]%M0[7];else Wf[M0[1]]=#Wf[M0[3]];end;end;end;end;end;end;end;end;end;else if not(O0>=29)then if not(O0>=14)then do if not(O0<7)then do if not(O0>=10)then if O0>=8 then if O0==9 then local QV=H4;local ZV=(sC[M0[5]]);local MV=ZV[7];if not(MV>0)then else QV={};for DT=0,MV-1 do local QT=KC[Tf];local PT=(QT[6]);if PT~=38 then do QV[DT]=XC[QT[3]];end;else QV[DT]={Wf,QT[3]};end;Tf=Tf+1;end;(T)(IC,QV);end;(Wf)[M0[1]]=g4(ZV,xf,QV);else if not(M0[4]<=Wf[M0[10]])then Tf=Tf+1;end;end;else Wf[M0[1]]=-Wf[M0[3]];end;else if not(O0<12)then do if O0==13 then repeat local XK,vK=IC,Wf;if not(#XK>0)then else local uh=({});for ap,Bp in x4,XK do for DJ,RJ in x4,Bp do do if RJ[1]==vK and RJ[2]>=0 then local jD=(RJ[2]);if not(not uh[jD])then else uh[jD]={vK[jD]};end;(RJ)[1]=uh[jD];do RJ[2]=1;end;end;end;end;end;end;until f4;local OX=(M0[1]);do return j4,OX,OX;end;else Wf[M0[1]]=Wf[M0[3]]<M0[7];end;end;else if O0~=11 then local A5=(M0[1]);(Wf[A5])(d(Wf,A5+1,Xf));do Xf=A5-1;end;else repeat local xy,yy=IC,(Wf);if not(#xy>0)then else local UM={};for kB,YB in x4,xy do do for fd,rd in x4,YB do if not(rd[1]==yy and rd[2]>=0)then else local n8=(rd[2]);do if not UM[n8]then UM[n8]={yy[n8]};end;end;(rd)[1]=UM[n8];rd[2]=1;end;end;end;end;end;until f4;local Af=(M0[1]);return j4,Af,Af+M0[3]-2;end;end;end;end;else if not(O0<3)then do if O0<5 then do if O0==4 then if Wf[M0[3]]~=Wf[M0[10]]then else Tf=Tf+1;end;else if not(not(Wf[M0[3]]<Wf[M0[10]]))then else Tf=Tf+1;end;end;end;else if O0==6 then do Wf[M0[1]]=Wf[M0[3]]*M0[7];end;else(Wf)[M0[1]]=l4[M0[3]];end;end;end;else if not(O0>=1)then(Wf)[M0[1]]=M0[4]%Wf[M0[10]];else if O0~=2 then if Wf[M0[3]]~=Wf[M0[10]]then Tf=Tf+1;end;else Wf[M0[1]]=b(M0[4],M0[7]);end;end;end;end;end;else do if not(O0<21)then if O0<25 then if not(O0<23)then do if O0~=24 then(Wf)[M0[1]]=h(Wf[M0[3]],Wf[M0[10]]);else(Wf)[M0[1]]=Wf[M0[3]]>Wf[M0[10]];end;end;else if O0~=22 then local Dp=M0[3];(Wf)[M0[1]]=Wf[Dp]..Wf[Dp+1];else(Wf)[M0[1]]=M0[4]^Wf[M0[10]];end;end;else if not(O0<27)then if O0~=28 then Wf[M0[1]]=Wf[M0[3]]+M0[7];else(Wf)[M0[1]]=Wf[M0[3]][M0[7]];end;else do if O0~=26 then do(Wf)[M0[1]]=Z(Wf[M0[3]],M0[7]);end;else if not(Wf[M0[1]])then else Tf=Tf+1;end;end;end;end;end;else do if not(O0<17)then do if not(O0>=19)then if O0==18 then do if not(not(M0[4]<=M0[7]))then else do Tf=Tf+1;end;end;end;else local l7=(M0[1]);local D7=Wf[M0[3]];(Wf)[l7+1]=D7;do Wf[l7]=D7[M0[7]];end;end;else if O0==20 then Wf[M0[1]]=q(Wf[M0[3]],Wf[M0[10]]);else do if not(not Wf[M0[1]])then else Tf=Tf+1;end;end;end;end;end;else if not(O0>=15)then Wf[M0[1]]=Wf[M0[3]][Wf[M0[10]]];else if O0~=16 then do if M0[10]~=173 then(Wf)[M0[1]]=not Wf[M0[3]];else do Tf=Tf-1;end;KC[Tf]={[3]=(M0[3]-245)%256,[1]=(M0[1]-245)%256,[6]=48};end;end;else local RW=(M0[1]);for X9=RW,RW+(M0[3]-1)do Wf[X9]=vf[kC+(X9-RW)+1];end;end;end;end;end;end;end;end;else if not(O0>=43)then if not(O0<36)then if not(O0>=39)then if not(O0<37)then if O0==38 then do if M0[10]==28 then do Tf=Tf-1;end;KC[Tf]={[1]=(M0[1]-33)%256,[6]=55,[3]=(M0[3]-33)%256};elseif M0[10]==66 then Tf=Tf-1;KC[Tf]={[1]=(M0[1]-116)%256,[3]=(M0[3]-116)%i4,[6]=48};else Wf[M0[1]]=Wf[M0[3]];end;end;else Wf[M0[1]]=Wf[M0[3]]^Wf[M0[10]];end;else local ab=(M0[3]);local Ib=(Wf[ab]);for FN=ab+1,M0[10]do Ib=Ib..Wf[FN];end;Wf[M0[1]]=Ib;end;else if not(O0>=41)then do if O0==40 then(Wf)[M0[1]]=M0[4]*Wf[M0[10]];else(Wf)[M0[1]]=M0[4]/Wf[M0[10]];end;end;else do if O0~=42 then Xf=M0[1];(Wf[Xf])();Xf=Xf-1;else local eW=(M0[1]);do(Wf)[eW]=Wf[eW](Wf[eW+1]);end;Xf=eW;end;end;end;end;else if not(O0<32)then if not(O0<34)then do if O0~=35 then local oa=(M0[1]);do Wf[oa]=Wf[oa](Wf[oa+1],Wf[oa+2]);end;Xf=oa;else if M0[3]==235 then Tf=Tf-1;KC[Tf]={[6]=48,[3]=(M0[10]-249)%256,[1]=(M0[1]-249)%256};elseif M0[3]~=10 then local Aq=M0[1];local Xq,Qq=Aq+2,(Aq+3);local Uq={Wf[Aq](Wf[Aq+1],Wf[Xq])};do for Ud=1,M0[10]do Wf[Xq+Ud]=Uq[Ud];end;end;local iq=(Wf[Qq]);if iq==H4 then Tf=Tf+1;else do(Wf)[Xq]=iq;end;end;else do Tf=Tf-1;end;do KC[Tf]={[6]=19,[10]=(M0[10]-113)%256,[1]=(M0[1]-113)%256};end;end;end;end;else do if O0==33 then local rP=(M0[4]/Wf[M0[10]]);(Wf)[M0[1]]=rP-rP%1;else l4[M0[3]]=Wf[M0[1]];end;end;end;else if O0>=30 then if O0==31 then do if Wf[M0[3]]==M0[7]then Tf=Tf+1;end;end;else local Ae=(XC[M0[3]]);Ae[1][Ae[2]]=Wf[M0[1]];end;else do Wf[M0[1]]=Wf[M0[3]]*Wf[M0[10]];end;end;end;end;else if not(O0>=50)then if not(O0<46)then if not(O0>=48)then do if O0==47 then local j3=M0[1];Xf=j3+M0[3]-1;(Wf[j3])(d(Wf,j3+1,Xf));Xf=j3-1;else Wf[M0[1]]=M0[2];end;end;else do if O0~=49 then do repeat local Z9,t9=IC,Wf;if#Z9>0 then local vs={};for Db,Tb in x4,Z9 do for K0,r0 in x4,Tb do if not(r0[1]==t9 and r0[2]>=0)then else local Q7=r0[2];if not(not vs[Q7])then else do(vs)[Q7]={t9[Q7]};end;end;r0[1]=vs[Q7];(r0)[2]=1;end;end;end;end;until f4;end;return j4,M0[1],Xf;else(Wf)[M0[1]]=Wf[M0[3]]-M0[7];end;end;end;else if O0>=44 then if O0~=45 then do Wf[M0[1]]=Wf[M0[3]]-Wf[M0[10]];end;else do Wf[M0[1]]=M0[4]<Wf[M0[10]];end;end;else Wf[M0[1]][Wf[M0[3]]]=Wf[M0[10]];end;end;else if O0>=54 then if not(O0<56)then if O0~=57 then do Wf[M0[1]]=b(Wf[M0[3]],Wf[M0[10]]);end;else Wf[M0[1]]=j4;end;else if O0~=55 then Wf[M0[1]]=xf[M0[2]];else do if M0[10]==211 then Tf=Tf-1;(KC)[Tf]={[1]=(M0[1]-7)%256,[6]=26,[10]=(M0[3]-7)%256};elseif M0[10]==20 then Tf=Tf-1;(KC)[Tf]={[3]=(M0[3]-75)%256,[6]=70,[1]=(M0[1]-75)%256};elseif M0[10]~=r4 then do repeat local NP,IP=IC,Wf;do if not(#NP>0)then else local Lq={};do for Zw,Bw in x4,NP do for IK,oK in x4,Bw do if not(oK[1]==IP and oK[2]>=0)then else local GY=(oK[2]);if not(not Lq[GY])then else do Lq[GY]={IP[GY]};end;end;do(oK)[1]=Lq[GY];end;do(oK)[2]=1;end;end;end;end;end;end;end;until f4;end;do return;end;else Tf=Tf-1;do KC[Tf]={[6]=26,[10]=(M0[3]-31)%i4,[1]=(M0[1]-31)%256};end;end;end;end;end;else do if not(O0>=52)then if O0==51 then(Wf)[M0[1]]=Wf[M0[3]]%Wf[M0[10]];else do if M0[10]==213 then Tf=Tf-1;do KC[Tf]={[10]=(M0[3]-133)%256,[1]=(M0[1]-133)%256,[6]=35};end;else local As,es=M0[1],Yf-kC;if es<0 then es=-1;end;for Jt=As,As+es do Wf[Jt]=vf[kC+(Jt-As)+1];end;Xf=As+es;end;end;end;else do if O0~=53 then do(Wf)[M0[1]]={};end;else(Wf)[M0[1]]=Z(M0[4],Wf[M0[10]]);end;end;end;end;end;end;end;end;end;end;end);if not(rf)then if e(qf)~=w2 then W(qf,0);else do if u(qf,W2)then do return z2();end;end;end;if u(qf,E2)then(W)(x2..(LC[Tf-1]or"(internal)")..": "..w(qf),0);else W(qf,0);end;end;else if qf then if Ff==1 then return Wf[df]();else return Wf[df](d(Wf,df+1,Xf));end;elseif not(df)then else return d(Wf,df,Ff);end;end;end;if not(t)then else(t)(jC,AC);end;return jC;end;do w4=3;end;end;else do if w4~=0 then do w4=2;end;else e4=P4();w4=4;end;end;end;end;do w4=2;end;while(f4)do do if w4<=0 then V=H4;w4=1;else if w4==1 then return g4(e4,A,H4)(...);else do l4[2]=V;end;w4=0;end;end;end;end;end)("\35","\108\115\104\105\102\116",tostring,"\96\102\111\114\96\32\115\116\101\112\32\118\97\108\117\101\32\109\117\115\116\32\98\101\32\97\32\110\117\109\98\101\114",setmetatable,"\94\46\45\58\37\100\43\58\32",type,112,"\103\115\117\98","\114\115\104\105\102\116","\114\101\112","\105\110\115\101\114\116","\98\120\111\114","\97\116\116\101\109\112\116\32\116\111\32\121\105\101\108\100\32\97\99\114\111\115\115\32\109\101\116\97\109\101\116\104\111\100\47\67\37\45\99\97\108\108\32\98\111\117\110\100\97\114\121",tonumber,"\46\46",nil,"\118",pcall,"\115\116\114\105\110\103","\98\121\116\101",string,"\115\117\98",getfenv,177,unpack,_ENV,"\98\97\110\100",110,"\98\110\111\116",rawset,"\109\97\116\99\104",65536,bit32,assert,256,table,bit,"\76\117\114\97\112\104\32\83\99\114\105\112\116\58",coroutine.yield,"\98\111\114",select,"\96\102\111\114\96\32\105\110\105\116\105\97\108\32\118\97\108\117\101\32\109\117\115\116\32\98\101\32\97\32\110\117\109\98\101\114",setfenv,128,"",next,false,"\96\102\111\114\96\32\108\105\109\105\116\32\118\97\108\117\101\32\109\117\115\116\32\98\101\32\97\32\110\117\109\98\101\114",error,rawget,true,189,"\95\95\109\111\100\101","LPH>5CF8013B2H993H09000902202H092H9990922H90002H90099099043H9004094990990090009099092H9994093H9009932H993029990390999009902H00AC0A020053F878FB785C0B4B088B5C2HF6F5765C79397879094H543647072H47501292AA627475F54E0374F0A4E6611B8357FEBC122EC514155D71DA9F21740CC31BE363BF0AF5F3108A6355F6442DC1D9CC0E4H6809FBBB7BFB293H66E65C3H69796EC4842HC4094H373B4H8236253H653BE03HA0324HF3445E63B5640F890A0200794CEEB99CFE5HFFE9FFF702002H024H00220D0200AB2HE16A615C5494DED45C9F1F151F5C82C28082092HBDB8BD3610D01610503BBB034B74FE7E458874194C1F636B8C2H0D2F69D7C0EFFD09BAA8278A3BB53DF00A0B486A283E07B3E02D2A24763012DD2E2H51D6D15C848F4F4E0E8FC504182B723270F25CED26AD2D2600C0FF7F5CABA72BB926EE2E11915CC985899E263C7C3DBC5C070C43D03E2A6121FD432561E57226F838A2785CA328676A1D662698195C014A41C0223H34B45CBF74FF8A6EA229E675149D5D67E25C30FB50FF371B9B669B5C2HDED85E5C39F1F9E926ACA42C2D2A3H37B75C5AD2DAF16E951592C455E868ED685CD393D3535CD65E56552631B1CC4E5C24E41CA45C6FE6EFFD26921B5452504D848D0C2260A9E9ED0E8B4B74F45C8EDF6EC13769E937E95C1C5C1C9C5CE7AE27A426CA8A37B55C45C532C55C58D0D3D850C34B2H431A866DEB7513A1699B2163141C1F14505F9FA0205C8229630D547DBD80025C90D850D2267BF3FBEB263EA5BB8937999159D83C3H0C8C5C571F17E16EFAB22HBA34F5BD2HB51A4857F1C86833BB2HB334B63E2H361A9153E09766C40C2H04390F872HCF1332082A1E14EDE4EDEB2680C9C0D0262B77EE5337AE2E272E5C09432H4939BCB62HFC1307DADFDC20AAA02ABE2625E5DA5A5CB8F8BE385CA3489660322H26A3A65C8141B3015C74E454FB373F7F75BF5C22A209A25C9D55DD4926F0BAB0A126DB1B24A45C9ED6148D2BB9F9B9395CACE66CEC4B2HF709885C9A1A1E1A5C95DD2H9523A8E8EB285C93138D135C161E1D1650F1F92HF11AE4A0C25F59EFA72FA22612D2ED6D5C4DC5C6CD5020A82HA01A0BC7DA73658E06CB0E636923292F265CD6DCCF26A76DE772464AC02H8A13055DCCC44298586FE75C038A0B124806866F865C61696A6150D4DC2HD41ADFE8C2E426420A820F263DFDC2425C10989B90503BB32HBB1A3E378DCB589911A619630CC4CCDE26D7DED7C6263A737A6B26F57C75642648818899267379736226367FF6F72AD1DBD1C026C4CE44C4448FC62H8F0AF2FBF2E326EDA4ADBC2600898091266B2HA23915EE676E7F26C9800D09507CB52HBC1A0735FEE92DEAA3637915256CE1E550B8712H781AA308BBF831E6ECE6F7268148CB5215B4FDB4B62F3HFF7F5CE2EBE2F36E1D141D0C26F07879612B9B12938A0E3H5EDE5C79707C79362CA4A5BD2BF77FF0334D2H1A115D2H5515A52A5C68285FE85C13F64F5623D656CB565C2HB1AF315CA46DAEA4362F66EF7E26D25BD2D32A3H8D0D5C6069E0506ECB1BAB04374E8E7DCE5CE969C5695CDC398CA626E7AD14A7630A2H414A502HC53ABA5CD8522H583443C92HC31A86F0397102E12B2A2150949F148026DF1F22A05CC28AC3C209BD35FEFD34105857D44F3B2H73F94F7E36B6B94F1951D1DD4FCC84040E4FD79F1F054F7A32B2A94F752H3DB84F0840C0C54F733BBBBD4FF62HBE394FD199191B4FC42H8C054F0F2H47C44FF23AFE324DED65ED6F2680482H40342BE32HEB1AAE7ABCB874C9C049D926FCF4FC7D223H07875CAA222AC86E65ADA5B4263831382926E3AAA3B22H26AFA6B7268108810144B4FC2H7453BFB62HBF09E2ABA2B3265DD4DDCC2630B9B031225B522H5B1A1E5EEF615C39790AB95C2C646B7D26B76DF242371A522H1B2015D5EB6A5CA82223285093192H131A16E921BD63B17BF16526642H6F6450AFA50EAF63925259821F2H4D45CD5C2H2021A05C8B43CBCA2A0E8EF0715CE9A129AF26DC545C4C26E76719985C0A8AC6755CC58C059426185818985C834A898336864678F95CE168E1E02A9444F45B379F5FBD1F5C82C24FFD5C3DBB2HBD26D016901A26BBBD3B3A2A3HFE7E5C991F99306E4CC9CA462B579757D75C7A3CFEF73EF5350A8A5C888E430543F3B3F3735CF630737F1D5111AF2E5C04414449260F4F108F5C32F2FA62012D6DC6525C00801D805CEBA3ABA526AEE66EEE5B8983099D263C7CEB435CC74ECFD63EAA63E2FB1D25ECED776B7871F0E925232HEA713366A699195CC188C8D32C34F4CB4B5CBF777F6D2662EB6A733F5D57299E372HF0B0705C1B5B1B9B5C1ED6DECC262HF905865C2CECF8535C373E372H26DA5A24A55CD55507AA5CE820DE2H68D353E8535CD65FD64426317132B15CE42EA42A26EFAFEA6F5CD2D7DB432B8D040D092620E9E0F2268B4B8E0B5C4EC74EDC26E9EF60672B9C159C1926A76758D85C0AC3CCCA36454FC5542698D258DA26438342C35C064F46552621A8A1A074D41D1406265F55DF4D26C20B4243587D3D86025C5099D0D22FFB3B00845C3EB42HBE34D91920A65C4C068C0D4417D7E8685C3AF32HBA0A3HB5355C48C148686EB373BC335C367C303650111B2H111A84F8C68B3D8FC5CFC1262H32CE4D5CEDADE5F9042HC08A405C6B2BAF145CAE27A6BF648983FD4A37FC7C37835C87C787075C6AA2AAB8262565DB5A5CB87888385C632A232726A62F26342681417EFE5C34BDF2F4502H3F3CBF5C22286B361C5D1D5DDD5C30B9B6B036DB5BD95B5CDED79E9C2F3HB9395CACE5ECD26EB7FE77F2262H9A64E55C955C9D9E0EA86857D75C939AD8811C1656ED695CF13BF9FA0E2HE4189B5C6FA62FBE2612181200268D84CDCF2FA0E0A4205C0B41CB59078E4E860E5C29A02138182HDC24A35CE7ED6AE7688A4A61F55C452HC2147098D823E75C430983112606C6E3795C616BE1752694DE54C6421F5F1F9F5C42880602503DBDC3425C2H90588473BBFB76C45C2H7EA7015C995150E668CC4C8C4C5C17DD75A8687A3A45FA5C75B5D00A5C8881888626737AF3735BF6BE2D8968D11175AE5C448118BB688F0F9B0F5C2HF2CC725CEDA72DAD4BC08A2H801AEBEF94AD006E64EE7A260989BE765CBCFC7FAF1F47875FC75C6A2A53EA5C6543F9E0237838A6075CE363149C5C26ED66E626410142C15CF4B0B4A326FFBFFC7F5CA2EE62F426DD969D1C22B03BF467145B5090910E3H5EDE5CB9727C7936AC66A7BB1537FCB3BE1DDA915E4D3E5595AA2A5CE8E3237F435313AF2C5CD6DA56C426B1F14DCE5CA46455DB5CEF646F7B26D25228AD5C4D289188232H60821F5C0BCBD6745C4E474E5F262HE954965CDC9B1B114F27A72EA75C0A4DCDD94FC545CB455C185FDFD24F2HC3C2435C06802HC609E1642123582H949F145C9FD8584D4FC2423FBD5CBD2HFA7C4F102H57DB4F7BBB84045C7EB972BE4DD95E5859093H8C822657102H97093H3A352635B53EB55CC84E2H4834B3352H331A364ADE2805511798915044822H841A0FE073CA28B2752HB2093H6D6C263H404A263HEBE2262H2EAE27262HC949C1262H7CFC762647C00407346A2D2H2A1A256D30345D782H3FBC4FE32HA4214FE6A12H214F410686854F74B470F45CFFB838314F2HA2A1225C9DDB2HDD3430B0C94F5CDB5E2H5B34DE1B1E1C74F93C2H391AEC3796835877F17377501A1C3H1A959F3D3F6E682EA8284B139311935C96902H963471F18D0E5C242H63EB4F2F6FDD505C529D329D372H4D85325C20E021A05C8BCC4C494F0E4EFC715CE92HAE244F5CDCB3235C67E1E3E7500A8AFA755C858D0582262H18E5675C2H833DFC5C864644951FE1A1EB615C54D451D45CDF96D48D1C3H82025CFDB4B8BD36901959021C3H3BBB5C7EF7FBFE36D910991F264C0C4CCC5C579E2H5F0EFABA07855CF5FF75E726C88108092A3HF3735CB67FF6F46E914DD46837440E2H44130FD0346D2572F2B0611F2DEDCD525C0040907F5CEBA12HAB1AEE2E0E915C89C989095C7C36F82E57C74739B85CEAAA3C955CE52C6C680EF8B81D875C2H2328645566A6F1195CC1811DBE5C3492240E267FF6776E512H62FB1D5C5D8D3D92372HF03D8F5C1B9B1B9B5C1ED6DECC26F970F1E84C2C6CD2535C2H37E4485CDA9A1EC91FD55547AA5C2HE83D975CD393D7D3363H56D65C2H3134313624646E241CEF6FEA6F5C92D35352360D4F2H0D36A0A2E6E0363H8B0B5C8ECCCBCE36E96B6C69361C5C1E9C5C27A4ADA7363HCA4A5CC54640453618DB21D805434731420506C24C4650E1A52HA11AD4F8F5586CDF9B5A5F502H4245C25CBDBF7C7D363HD0505C3BF9FEFB36BE7D2HBE36991ADDD9360CCCF7735C2H571317363HBA3A5CF5B5B0B53688480BC81C3HB3335C7636332H3691511511363H04845C4FCFCACF36B2727A331C3HED6D5C40C0C5C036AB2B6F6B36AE6E51D15C890985481CFC3DF7FC363H87075CAAABAFAA36252462271CF839B0B83623E3DC2H5CA62725263681C175FE5C34F0F8F450FF3B2H3F1A2256008D6F5D582H5D34B0B52HB01ADB992CC14ADE1B949E5039BCBDB9506CE92HEC1A37A3DF8D515A5F929A5095939E9550A8AE2HA81A53EF2F89099613DE6963F1ECF4CB37A4AE2HE413EF87FA3A0B1218920626CD2H4DB25C20AB6BB61C3H4BCB5C0E858B8E36E922E03F1C3HDC2H5CA76C6267368A868A9E2605C5FA7A5C1893148F2B0383747C5C466CB3453261E1D51E5CD454A3AB5C1F0EBF103702C2C17D5C3DBDC7425C501A90912A3HBB3B5CBE747EC56E9993198C26CC8CB7B35C17DDD7D5267A717A6F2675B5880A5C8880888E26337BF37D2676FEF6E746D151A7AE5CBB0A0200C9000B0E3H005CD3423657B2CB41551FFBE38C120B093H00064D0C7193EECB6A2A0B0A3H0065E49B15EEF9C9D218C40B073H0033A2C9065A76E10B093H0094CBFABE1FB407C1000B083H006352F94730D3B0280B093H00FBAA11826661BA79E70B083H000229C8EF0D9498470B0D3H005A41A0689979A3B0C62B11A1790B083H0025A45B552E2312140B063H003D7CF30CE0440B093H00FFCE553AFED7C365E50B0F3H00266D2C4477CDB54A0AE470DA08BDD50B0A3H00C7D69DBE3CAD85ED3E400B073H00B5B4EB2H7814920B083H0086CD8CDC2D785CEBEE8H000B093H00DEE56468BE437949510B4H000B073H00FD3CB3563098DA2H0B3H008E15143F150FB53A84489E2H0B3H00E3D279C7B05D2AAA184BE50B0D3H0070879602C37DE7DE21718A100CEE157H000B0A3H00ABDAC153D232EB292D442H0B3H00D9F84FEACA57AFF898BE800B083H00F6BDFC2CBD79C7080B073H004ED5D4546544F10B093H0017A6EDCFCCFC5A39DB0B073H00FE058464B53D440B073H0047561D038C2E0CE7EEE8036H000B063H0008DFAE47511B0B0F3H009A81E0046339616686F8CC6E3C0981EEFF7H00EE027H000B083H009B4AB1CFF8D214CAEE047H000B083H0033A2C9376063FAF02H0B3H00CBFAE11F8123FF3F2A1DB70B073H00186FBEA62C9AD8EE147H000B0A3H0011F00771B868F56747BEEE017H000B0A3H009F6EF5B85E3B619519F7EE00016H000B083H000DCCC3C6381AA37BEEF37H000B083H0025A45B671024041EB10FA0D4360002064H00A30A0200CFC444C7445CB3F3B0335C2H5A59DA5C79B92H7909D0902HD0361F9F2H1F5026661E5774A5259ED3741CA2D592088B64A32533B2AAA79F09D1A4C31960E840C6AE0EB75F7AE3273H3EBE5C2H7DFD7D37B43HF432E31DDD1623880A0200B500F78C402A00035H00731D91654H00032C00A10A02009B8ACA890A5C2HF5F6755CF838FA785C53932H5309C6862HC63611912H11502HF44C85742F6F155A74C27C863221EDF780EF25B0C687355C8B04E807093E37E87847C96470DF382C34853652276F607626880A020079001ADA824F7H000A2BEE354H0002CC01AA0A0200C77A3A7EFA5C2H9195115CA060A3205C2H67666709A6E62HA6361D9D2H1D502H8C34FC742HB309C57412F45C142H6985C8A523380ECB3E05FF6AE84A5C3E09E5CB6D75CD9CFD2324733BFF690B23AF2D612A6A2AAA5C81C9C6D026902EEE2523173H9772963H56268D5EC86A373CFCC3435CA3E22HE332823H0245880A02006100F3AF662F00034H0001F05E0E4B4H0006EA06D50A0200BF59D95DD95CA0E0A4205C2H5F5BDF5C561657560945C52H4536EC2CEDEC500B4BB27A7462A2D81774F181FF9E3BB82ECB586137DD89EB0B2EBD01B0095D787E293A447B2F000EA3BD78B563FA05CEFD18098909895CD01264D3370F8F058F5C86C68D065C4HF5722H5C2H1C50FB3HBB1A122962CE4EE13H6150E828E8685C2H272HE750DE3H1E1A8D70DC42692H7433B463932H1392223H2AAA5C3HB9236E4000010050FF3HBF1A361F9F75402H252HA5504C8CB0335C2B6B6A6B5042C2C3C250913H111A985D49520C57979697508E3H4E1AFDEAD2AE20642H6564504342C3411E9A2H5A581EE969E9681E702H30311E2H2F6E6F363HE6665C15D52H55367CFC8A035C2H1B9B1B37B2F372F2723HC1415C08C92H4836C7462H47263EFF7F7C2B2HED53D26894546DEB5CF3730C8C5C4A3H8A26995919185660E0931F5C9F1F9F1F261696E8695C8E0A02002D005C3H00205FA002420B043H003D50A7F5EEFF7H00EE017H00EE8H000B083H0021642B5637D181EE4DBC947E7H00BD0EDB2A4H0008B101D10A0200B305850C855CA0E0A9205C2H535AD35CDE9EDFDE0901412H01367C3C7D7C500F4F377F747AFAC00C74BD105E3E0598F738E2520B13702E6396902H6F4D397B336724F47C82FA1D8789B48069B2C0044448B55A3C8E139031388A74C34811B4244E8E4ACE5CF1F371F14BECEE2HEC1ABFD04B1510AA1B45B56AADED6AED68488840C85CBB3A2H3B3206872H06533H69E95CE464DA5B63B7F62HF7502HA25DDD5C253HE550403H801A7359CE210FBE7F2HBE36A1A02HE1505C9CA0235C6FAF2HEF625A9AA7255CDD3H5D34383HB81A2BF663A642B63H76322H59A7265C94162H94363HE7675C12502H123695D755D62670F22HF02623A1A32H22EE278E2137D15129AE5CCC8C3BB35C9FD7D8CE26CAB461B00F8DCC2H4C0E3H28A85CDB5A2H1B36E626E7E60449C9BF365C0484FF7B5C173HD772428202825B8C0A02007100EE017H000B043H00A930C74D2H0B3H0025ECC3D8C0DFDA976805D70B093H00229920C43B79B9D0EE3942555900034H0001CA0AF75D4H000BED00A50A0200D72HC5C1455C844487045C7BFB78FB5C6A2A6B6A0911512H113630B02H305087473FF6742HD66DA3749D781D3A49DC29F51965D3EAE9461902335BBC17A9B64ED810085BB4A5101FF8E50A426E81B441743HF5755C2H34B43437EB3HAB325A870A2026880A02004D00EAADF71100035H006512E45F4H0003F80012297D604H00322400CE0A02002D41C142C15C367635B65C2H9390135C98D899980985C52H85369A1A999A5017D72F66743CBC074B74495072913B3E4C57042CDBA7518713601FAC30700D3AC2485FE23B64F55ADF382EDA5484DEAEEE0F4H51508606C4C6363HA3235C2H682H283615959695363H2AAA5CA7672H27364CCC8DCD1159182H59503H8E0F22ABEB6B2A1C7030B1F11C3H9D1D5CF2322H7236EF2FAFAE2A3H94145C212H617C6ED69654563673B3B0B3363HB8385C65E52HA5367AFA7BBB1C3H37B75C9C1C2H5C36A969AB681C5E1E5C9F1C3H3BBB5C40C02H80363H6DAC1C3H02825C7FFF2HBF36E464E6251C3H71F15C26A62HE6362H43C3C22A3H48C85C352HB52C6E8A3H4A09078747C44F2CAC2HEC092H79F979263H2E2F264H4B2650D010914FFDB5BAAC26950A0200C9BD5C82764968C2253CBD0B143H00917087D0AFBA7EE351838E374E99568550D33D470B1B3H008D4C43628D8867F4ABA5B606140809ECB260B33C90E79686E6BF340B123H003A21802B97291EC1D4722E8955510B1F822F0B0D3H00304756F63689A82CE9ABDA02860B0A3H006B9A81265A2FEF83547D0B113H0099B80FA6FE59AA1D17DC60BA5A83CCA5160B093H00683F0EF2B1837851E20B0E3H00D766AD93AE0C6C8309B34CC6149D2H0B3H0011F007DA03F00E7B09D6B70B103H006EF5F43FB126A86A3F04FA5D9447F5DC0B0A3H001E25A4FA2D5DB119D2D90B073H007CF3626652B8CEED048E39002H024H00A50A02007992D296125C2H1B1F9B5CAC6CAF2C5C85C5848509E6A62HE6360F8F2H0F5040C0F932742HB903CF747A1C3A8214033B87A41314841A56686D11863C4E8E581AFD2777745D7C67286BF35C59618CCCB411222C52B371AB99E2E8267C5EF52E63155D524426880A020089843CB4EA437H00FC6F3C1A0D3H00013H00083H00013H00093H00093H00F28FB02F0A3H000A3H000A75BA330B3H000B3H005F49FA350C3H000C3H00AC1B331B0D3H000D3H00A5194D5F0E3H000E3H0038B558480F3H000F3H00CF31592H103H00103H008A995B40113H00113H00871AFF62123H00123H001CCC3374133H00133H0018DC9407143H00143H00013H00025203D70A02009136B639B65CF7B7F8775C2H808F005C11911011092HEAE8EA364B0B494B5074F4CC06742HA59FD3749E5B825D25DF9694E45CE85F869F5EF9B88C740F527091C36E335FB19E369C658E77104D8D46CD5C86C787864FC746C747723H50D05CE1606361367AFB2HBA091B5A2H1A4FC4C5044411F5F7F5F4722HEEEA6E5CEF6D6F6E723HB8385C892H0B093622E322A02F3HC3435C2CAD2CD56E1D9C9D9F26D696D2565C17962H97723H20A05C31B0B3B1364A8B2H8A09EBAB11945C94551415563H45C55C3EBF3E306EBF3FBD3F5CC88A8889722H59A2265CF23372735693521213367CBC83035C2DECACED1C26E7A6A7566766A6E711F0700C8F5CC1008103265ADAA7255C7B333C2A2664E564E42655949594268E4E71F15C0F0D8F0E265898A7275CE928A9AB414282BD3D5C636AC36C374C0CB1335C2H3D3CBD5C36772H76723H37B75C80C1C2C036115091531C2H2AD6555C8B0B7DF45C8F0A0200455B0B0F3H0055801791B34EE0727F3EF7FE7F9EF10B113H00B6A5105814D7A083A52HA2A4D08DC6BB940B073H00F5A0B7CC646D090B073H00CE1D68259BECEA0B093H00B3D64582CBC41D72FE0B073H00DE6DF89C248E390B073H0083E695EBE8FFAC6DA5C3292H00024H00A20A020005B4F4B7345C2H595AD95CE626E4665C9BDB9A9B09B8F82HB8367DFD2H7D502AAA925874FFBFC58974FC4EE0A049610D1290426E90FD224FE3C02HBF4200DC13F75845A0C900033237183D712H47C7473784CCC3D526880A02009DA4E38E1D477H0021839B28093H00013H00083H00013H00093H00093H000FBAF8570A3H000A3H0010D9A51A0B3H000B3H00F07EBB4C0C3H000C3H0044AF7B040D3H000D3H008CFC79310E3H000E3H0072BB626C0F3H000F3H00095EBD20103H00113H00013H00028700A10A0200B9E9A9EA695C2HAAA92A5C33F331B35C2HC4C5C4099DDD2H9D36FE7E2HFE502H279F57745818E32D74D16BFCB7681257F86816DBAFDCA85E2C34BF4D0685B69C616866D5B3DC424F33080F352H00800037880A020011EECEF301417H000F48D800093H00013H00083H00013H00093H00093H0077B7BC5E0A3H000A3H009E97ED490B3H000B3H0072C9E0350C3H000C3H005502DD5C0D3H000D3H00A4438D730E3H000E3H00F59FDC010F3H000F3H0057680D19103H00103H00013H00021805F715335F1D3H00013H00083H00013H00093H00093H00F3E3E84B0A3H000A3H00E925E9390B3H000B3H004AC1DE400C3H000C3H00DEAD5D740D3H000D3H000537DC5B0E3H000E3H00FC142C3C0F3H000F3H00176E052D103H00163H00013H00173H001A3H000C3H001B3H001C3H00013H001D3H001D3H000C3H001E3H001F3H00013H00203H00213H000C3H00223H00263H00013H00273H00273H000F3H00283H00293H00013H002A3H002A3H000F3H002B3H002C3H000C3H002D3H002F3H000D3H00303H00313H000E3H00323H00333H000F3H00343H00353H000C3H00363H00363H00013H00373H003D3H00083H003E3H00403H00093H00413H00433H00013H00443H00453H00083H00463H00463H00093H000B8F00C75B68621A3H00013H00083H00013H00093H00093H00879B90600A3H000A3H005A62E3670B3H000B4H00B4EB690C3H000C3H0072F22B680D3H000D3H000751837A0E3H000E3H00BDDEFD610F3H000F3H0070984367103H00103H0020837F66113H00173H00013H00183H001C3H00023H001D3H001E3H00013H001F3H001F3H00023H00203H00213H00013H00223H00233H00023H00243H00253H00013H00263H00263H00033H00273H00283H00013H00293H002A3H00033H002B3H002C3H00013H002D3H002D3H00033H002E3H002F3H00013H00303H00303H00033H00313H00323H00013H00333H00333H00033H00343H003D3H00013H0006F90092B2FD1C4H0002A9","\99\104\97\114","\117\110\112\97\99\107",...);
+_G.AutoFarm = true
+_G.BringMonster = true
+_G.farmlevel = true
+
+if game.PlaceId == 2753915549 then
+        W = true
+    elseif game.PlaceId == 4442272183 then
+        W2 = true
+    elseif game.PlaceId == 7449423635 then
+        W3 = true
+    end
+    
+    function CheckQuest() 
+        Level = game:GetService("Players").LocalPlayer.Data.Level.Value
+        if W then
+            if Level == 1 or Level <= 9 then
+                Mon = "Bandit [Lv. 5]"
+                LQuest = 1
+                NQuest = "BanditQuest1"
+                NameMon = "Bandit"
+                CFrameQuest = CFrame.new(1059.37195, 15.4495068, 1550.4231, 0.939700544, -0, -0.341998369, 0, 1, -0, 0.341998369, 0, 0.939700544)
+            elseif Level == 10 or Level <= 14 then
+                Mon = "Monkey [Lv. 14]"
+                LQuest = 1
+                NQuest = "JungleQuest"
+                NameMon = "Monkey"
+                CFrameQuest = CFrame.new(-1598.08911, 35.5501175, 153.377838, 0, 0, 1, 0, 1, -0, -1, 0, 0)
+            elseif Level == 15 or Level <= 29 then
+                Mon = "Gorilla [Lv. 20]"
+                LQuest = 2
+                NQuest = "JungleQuest"
+                NameMon = "Gorilla"
+                CFrameQuest = CFrame.new(-1598.08911, 35.5501175, 153.377838, 0, 0, 1, 0, 1, -0, -1, 0, 0)
+            elseif Level == 30 or Level <= 39 then
+                Mon = "Pirate [Lv. 35]"
+                LQuest = 1
+                NQuest = "BuggyQuest1"
+                NameMon = "Pirate"
+                CFrameQuest = CFrame.new(-1141.07483, 4.10001802, 3831.5498, 0.965929627, -0, -0.258804798, 0, 1, -0, 0.258804798, 0, 0.965929627)
+            elseif Level == 40 or Level <= 59 then
+                Mon = "Brute [Lv. 45]"
+                LQuest = 2
+                NQuest = "BuggyQuest1"
+                NameMon = "Brute"
+                CFrameQuest = CFrame.new(-1141.07483, 4.10001802, 3831.5498, 0.965929627, -0, -0.258804798, 0, 1, -0, 0.258804798, 0, 0.965929627)
+            elseif Level == 60 or Level <= 74 then
+                Mon = "Desert Bandit [Lv. 60]"
+                LQuest = 1
+                NQuest = "DesertQuest"
+                NameMon = "Desert Bandit"
+                CFrameQuest = CFrame.new(894.488647, 5.14000702, 4392.43359, 0.819155693, -0, -0.573571265, 0, 1, -0, 0.573571265, 0, 0.819155693)
+            elseif Level == 75 or Level <= 89 then
+                Mon = "Desert Officer [Lv. 70]"
+                LQuest = 2
+                NQuest = "DesertQuest"
+                NameMon = "Desert Officer"
+                CFrameQuest = CFrame.new(894.488647, 5.14000702, 4392.43359, 0.819155693, -0, -0.573571265, 0, 1, -0, 0.573571265, 0, 0.819155693)
+            elseif Level == 90 or Level <= 99 then
+                Mon = "Snow Bandit [Lv. 90]"
+                LQuest = 1
+                NQuest = "SnowQuest"
+                NameMon = "Snow Bandit"
+                CFrameQuest = CFrame.new(1389.74451, 88.1519318, -1298.90796, -0.342042685, 0, 0.939684391, 0, 1, 0, -0.939684391, 0, -0.342042685)
+            elseif Level == 100 or Level <= 119 then
+                Mon = "Snowman [Lv. 100]"
+                LQuest = 2
+                NQuest = "SnowQuest"
+                NameMon = "Snowman"
+                CFrameQuest = CFrame.new(1389.74451, 88.1519318, -1298.90796, -0.342042685, 0, 0.939684391, 0, 1, 0, -0.939684391, 0, -0.342042685)
+            elseif Level == 120 or Level <= 149 then
+                Mon = "Chief Petty Officer [Lv. 120]"
+                LQuest = 1
+                NQuest = "MarineQuest2"
+                NameMon = "Chief Petty Officer"
+                CFrameQuest = CFrame.new(-5039.58643, 27.3500385, 4324.68018, 0, 0, -1, 0, 1, 0, 1, 0, 0)
+            elseif Level == 150 or Level <= 174 then
+                Mon = "Sky Bandit [Lv. 150]"
+                LQuest = 1
+                NQuest = "SkyQuest"
+                NameMon = "Sky Bandit"
+                CFrameQuest = CFrame.new(-4839.53027, 716.368591, -2619.44165, 0.866007268, 0, 0.500031412, 0, 1, 0, -0.500031412, 0, 0.866007268)
+            elseif Level == 175 or Level <= 189 then
+                Mon = "Dark Master [Lv. 175]"
+                LQuest = 2
+                NQuest = "SkyQuest"
+                NameMon = "Dark Master"
+                CFrameQuest = CFrame.new(-4839.53027, 716.368591, -2619.44165, 0.866007268, 0, 0.500031412, 0, 1, 0, -0.500031412, 0, 0.866007268)
+            elseif Level == 190 or Level <= 209 then
+                Mon = "Prisoner [Lv. 190]"
+                LQuest = 1
+                NQuest = "PrisonerQuest"
+                NameMon = "Prisoner"
+                CFrameQuest = CFrame.new(5308.93115, 1.65517521, 475.120514, -0.0894274712, -5.00292918e-09, -0.995993316, 1.60817859e-09, 1, -5.16744869e-09, 0.995993316, -2.06384709e-09, -0.0894274712)
+            elseif Level == 210 or Level <= 249 then
+                Mon = "Dangerous Prisoner [Lv. 210]"
+                LQuest = 2
+                NQuest = "PrisonerQuest"
+                NameMon = "Dangerous Prisoner"
+                CFrameQuest = CFrame.new(5308.93115, 1.65517521, 475.120514, -0.0894274712, -5.00292918e-09, -0.995993316, 1.60817859e-09, 1, -5.16744869e-09, 0.995993316, -2.06384709e-09, -0.0894274712)
+            elseif Level == 250 or Level <= 274 then
+                Mon = "Toga Warrior [Lv. 250]"
+                LQuest = 1
+                NQuest = "ColosseumQuest"
+                NameMon = "Toga Warrior"
+                CFrameQuest = CFrame.new(-1580.04663, 6.35000277, -2986.47534, -0.515037298, 0, -0.857167721, 0, 1, 0, 0.857167721, 0, -0.515037298)
+            elseif Level == 275 or Level <= 299 then
+                Mon = "Gladiator [Lv. 275]"
+                LQuest = 2
+                NQuest = "ColosseumQuest"
+                NameMon = "Gladiator"
+                CFrameQuest = CFrame.new(-1580.04663, 6.35000277, -2986.47534, -0.515037298, 0, -0.857167721, 0, 1, 0, 0.857167721, 0, -0.515037298)
+            elseif Level == 300 or Level <= 324 then
+                Mon = "Military Soldier [Lv. 300]"
+                LQuest = 1
+                NQuest = "MagmaQuest"
+                NameMon = "Military Soldier"
+                CFrameQuest = CFrame.new(-5313.37012, 10.9500084, 8515.29395, -0.499959469, 0, 0.866048813, 0, 1, 0, -0.866048813, 0, -0.499959469)
+            elseif Level == 325 or Level <= 374 then
+                Mon = "Military Spy [Lv. 325]"
+                LQuest = 2
+                NQuest = "MagmaQuest"
+                NameMon = "Military Spy"
+                CFrameQuest = CFrame.new(-5313.37012, 10.9500084, 8515.29395, -0.499959469, 0, 0.866048813, 0, 1, 0, -0.866048813, 0, -0.499959469)
+            elseif Level == 375 or Level <= 399 then
+                Mon = "Fishman Warrior [Lv. 375]"
+                LQuest = 1
+                NQuest = "FishmanQuest"
+                NameMon = "Fishman Warrior"
+                CFrameQuest = CFrame.new(61122.65234375, 18.497442245483, 1569.3997802734)
+                if _G.AutoFarm and (CFrameQuest.Position - game.Players.LocalPlayer.Character.HumanoidRootPart.Position).Magnitude > 10000 then
+                    game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("requestEntrance",Vector3.new(61163.8515625, 11.6796875, 1819.7841796875))
+                end
+            elseif Level == 400 or Level <= 449 then
+                Mon = "Fishman Commando [Lv. 400]"
+                LQuest = 2
+                NQuest = "FishmanQuest"
+                NameMon = "Fishman Commando"
+                CFrameQuest = CFrame.new(61122.65234375, 18.497442245483, 1569.3997802734)
+                if _G.AutoFarm and (CFrameQuest.Position - game.Players.LocalPlayer.Character.HumanoidRootPart.Position).Magnitude > 10000 then
+                    game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("requestEntrance",Vector3.new(61163.8515625, 11.6796875, 1819.7841796875))
+                end
+            elseif Level == 450 or Level <= 474 then
+                Mon = "God's Guard [Lv. 450]"
+                LQuest = 1
+                NQuest = "SkyExp1Quest"
+                NameMon = "God's Guard"
+                CFrameQuest = CFrame.new(-4721.88867, 843.874695, -1949.96643, 0.996191859, -0, -0.0871884301, 0, 1, -0, 0.0871884301, 0, 0.996191859)
+                if _G.AutoFarm and (CFrameQuest.Position - game.Players.LocalPlayer.Character.HumanoidRootPart.Position).Magnitude > 10000 then
+                    game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("requestEntrance",Vector3.new(-4607.82275, 872.54248, -1667.55688))
+                end
+            elseif Level == 475 or Level <= 524 then
+                Mon = "Shanda [Lv. 475]"
+                LQuest = 2
+                NQuest = "SkyExp1Quest"
+                NameMon = "Shanda"
+                CFrameQuest = CFrame.new(-7859.09814, 5544.19043, -381.476196, -0.422592998, 0, 0.906319618, 0, 1, 0, -0.906319618, 0, -0.422592998)
+                if _G.AutoFarm and (CFrameQuest.Position - game.Players.LocalPlayer.Character.HumanoidRootPart.Position).Magnitude > 10000 then
+                    game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("requestEntrance",Vector3.new(-7894.6176757813, 5547.1416015625, -380.29119873047))
+                end
+            elseif Level == 525 or Level <= 549 then
+                Mon = "Royal Squad [Lv. 525]"
+                LQuest = 1
+                NQuest = "SkyExp2Quest"
+                NameMon = "Royal Squad"
+                CFrameQuest = CFrame.new(-7906.81592, 5634.6626, -1411.99194, 0, 0, -1, 0, 1, 0, 1, 0, 0)
+            elseif Level == 550 or Level <= 624 then
+                Mon = "Royal Soldier [Lv. 550]"
+                LQuest = 2
+                NQuest = "SkyExp2Quest"
+                NameMon = "Royal Soldier"
+                CFrameQuest = CFrame.new(-7906.81592, 5634.6626, -1411.99194, 0, 0, -1, 0, 1, 0, 1, 0, 0)
+            elseif Level == 625 or Level <= 649 then
+                Mon = "Galley Pirate [Lv. 625]"
+                LQuest = 1
+                NQuest = "FountainQuest"
+                NameMon = "Galley Pirate"
+                CFrameQuest = CFrame.new(5259.81982, 37.3500175, 4050.0293, 0.087131381, 0, 0.996196866, 0, 1, 0, -0.996196866, 0, 0.087131381)
+            elseif Level >= 650 then
+                Mon = "Galley Captain [Lv. 650]"
+                LQuest = 2
+                NQuest = "FountainQuest"
+                NameMon = "Galley Captain"
+                CFrameQuest = CFrame.new(5259.81982, 37.3500175, 4050.0293, 0.087131381, 0, 0.996196866, 0, 1, 0, -0.996196866, 0, 0.087131381)
+            end
+        elseif W2 then
+            if Level == 700 or Level <= 724 then
+                Mon = "Raider [Lv. 700]"
+                LQuest = 1
+                NQuest = "Area1Quest"
+                NameMon = "Raider"
+                CFrameQuest = CFrame.new(-429.543518, 71.7699966, 1836.18188, -0.22495985, 0, -0.974368095, 0, 1, 0, 0.974368095, 0, -0.22495985)
+            elseif Level == 725 or Level <= 774 then
+                Mon = "Mercenary [Lv. 725]"
+                LQuest = 2
+                NQuest = "Area1Quest"
+                NameMon = "Mercenary"
+                CFrameQuest = CFrame.new(-429.543518, 71.7699966, 1836.18188, -0.22495985, 0, -0.974368095, 0, 1, 0, 0.974368095, 0, -0.22495985)
+            elseif Level == 775 or Level <= 799 then
+                Mon = "Swan Pirate [Lv. 775]"
+                LQuest = 1
+                NQuest = "Area2Quest"
+                NameMon = "Swan Pirate"
+                CFrameQuest = CFrame.new(638.43811, 71.769989, 918.282898, 0.139203906, 0, 0.99026376, 0, 1, 0, -0.99026376, 0, 0.139203906)
+            elseif Level == 800 or Level <= 874 then
+                Mon = "Factory Staff [Lv. 800]"
+                NQuest = "Area2Quest"
+                LQuest = 2
+                NameMon = "Factory Staff"
+                CFrameQuest = CFrame.new(632.698608, 73.1055908, 918.666321, -0.0319722369, 8.96074881e-10, -0.999488771, 1.36326533e-10, 1, 8.92172336e-10, 0.999488771, -1.07732087e-10, -0.0319722369)
+            elseif Level == 875 or Level <= 899 then
+                Mon = "Marine Lieutenant [Lv. 875]"
+                LQuest = 1
+                NQuest = "MarineQuest3"
+                NameMon = "Marine Lieutenant"
+                CFrameQuest = CFrame.new(-2440.79639, 71.7140732, -3216.06812, 0.866007268, 0, 0.500031412, 0, 1, 0, -0.500031412, 0, 0.866007268)
+            elseif Level == 900 or Level <= 949 then
+                Mon = "Marine Captain [Lv. 900]"
+                LQuest = 2
+                NQuest = "MarineQuest3"
+                NameMon = "Marine Captain"
+                CFrameQuest = CFrame.new(-2440.79639, 71.7140732, -3216.06812, 0.866007268, 0, 0.500031412, 0, 1, 0, -0.500031412, 0, 0.866007268)
+            elseif Level == 950 or Level <= 974 then
+                Mon = "Zombie [Lv. 950]"
+                LQuest = 1
+                NQuest = "ZombieQuest"
+                NameMon = "Zombie"
+                CFrameQuest = CFrame.new(-5497.06152, 47.5923004, -795.237061, -0.29242146, 0, -0.95628953, 0, 1, 0, 0.95628953, 0, -0.29242146)
+            elseif Level == 975 or Level <= 999 then
+                Mon = "Vampire [Lv. 975]"
+                LQuest = 2
+                NQuest = "ZombieQuest"
+                NameMon = "Vampire"
+                CFrameQuest = CFrame.new(-5497.06152, 47.5923004, -795.237061, -0.29242146, 0, -0.95628953, 0, 1, 0, 0.95628953, 0, -0.29242146)
+            elseif Level == 1000 or Level <= 1049 then
+                Mon = "Snow Trooper [Lv. 1000]"
+                LQuest = 1
+                NQuest = "SnowMountainQuest"
+                NameMon = "Snow Trooper"
+                CFrameQuest = CFrame.new(609.858826, 400.119904, -5372.25928, -0.374604106, 0, 0.92718488, 0, 1, 0, -0.92718488, 0, -0.374604106)
+            elseif Level == 1050 or Level <= 1099 then
+                Mon = "Winter Warrior [Lv. 1050]"
+                LQuest = 2
+                NQuest = "SnowMountainQuest"
+                NameMon = "Winter Warrior"
+                CFrameQuest = CFrame.new(609.858826, 400.119904, -5372.25928, -0.374604106, 0, 0.92718488, 0, 1, 0, -0.92718488, 0, -0.374604106)
+            elseif Level == 1100 or Level <= 1124 then
+                Mon = "Lab Subordinate [Lv. 1100]"
+                LQuest = 1
+                NQuest = "IceSideQuest"
+                NameMon = "Lab Subordinate"
+                CFrameQuest = CFrame.new(-6064.06885, 15.2422857, -4902.97852, 0.453972578, -0, -0.891015649, 0, 1, -0, 0.891015649, 0, 0.453972578)
+            elseif Level == 1125 or Level <= 1174 then
+                Mon = "Horned Warrior [Lv. 1125]"
+                LQuest = 2
+                NQuest = "IceSideQuest"
+                NameMon = "Horned Warrior"
+                CFrameQuest = CFrame.new(-6064.06885, 15.2422857, -4902.97852, 0.453972578, -0, -0.891015649, 0, 1, -0, 0.891015649, 0, 0.453972578)
+            elseif Level == 1175 or Level <= 1199 then
+                Mon = "Magma Ninja [Lv. 1175]"
+                LQuest = 1
+                NQuest = "FireSideQuest"
+                NameMon = "Magma Ninja"
+                CFrameQuest = CFrame.new(-5428.03174, 15.0622921, -5299.43457, -0.882952213, 0, 0.469463557, 0, 1, 0, -0.469463557, 0, -0.882952213)
+            elseif Level == 1200 or Level <= 1249 then
+                Mon = "Lava Pirate [Lv. 1200]"
+                LQuest = 2
+                NQuest = "FireSideQuest"
+                NameMon = "Lava Pirate"
+                CFrameQuest = CFrame.new(-5428.03174, 15.0622921, -5299.43457, -0.882952213, 0, 0.469463557, 0, 1, 0, -0.469463557, 0, -0.882952213)
+            elseif Level == 1250 or Level <= 1274 then
+                Mon = "Ship Deckhand [Lv. 1250]"
+                LQuest = 1
+                NQuest = "ShipQuest1"
+                NameMon = "Ship Deckhand"
+                CFrameQuest = CFrame.new(1037.80127, 125.092171, 32911.6016)         
+                if _G.AutoFarm and (CFrameQuest.Position - game.Players.LocalPlayer.Character.HumanoidRootPart.Position).Magnitude > 10000 then
+                    game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("requestEntrance",Vector3.new(923.21252441406, 126.9760055542, 32852.83203125))
+                end
+            elseif Level == 1275 or Level <= 1299 then
+                Mon = "Ship Engineer [Lv. 1275]"
+                LQuest = 2
+                NQuest = "ShipQuest1"
+                NameMon = "Ship Engineer"
+                CFrameQuest = CFrame.new(1037.80127, 125.092171, 32911.6016)   
+                if _G.AutoFarm and (CFrameQuest.Position - game.Players.LocalPlayer.Character.HumanoidRootPart.Position).Magnitude > 10000 then
+                    game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("requestEntrance",Vector3.new(923.21252441406, 126.9760055542, 32852.83203125))
+                end             
+            elseif Level == 1300 or Level <= 1324 then
+                Mon = "Ship Steward [Lv. 1300]"
+                LQuest = 1
+                NQuest = "ShipQuest2"
+                NameMon = "Ship Steward"
+                CFrameQuest = CFrame.new(968.80957, 125.092171, 33244.125)         
+                if _G.AutoFarm and (CFrameQuest.Position - game.Players.LocalPlayer.Character.HumanoidRootPart.Position).Magnitude > 10000 then
+                    game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("requestEntrance",Vector3.new(923.21252441406, 126.9760055542, 32852.83203125))
+                end
+            elseif Level == 1325 or Level <= 1349 then
+                Mon = "Ship Officer [Lv. 1325]"
+                LQuest = 2
+                NQuest = "ShipQuest2"
+                NameMon = "Ship Officer"
+                CFrameQuest = CFrame.new(968.80957, 125.092171, 33244.125)
+                if _G.AutoFarm and (CFrameQuest.Position - game.Players.LocalPlayer.Character.HumanoidRootPart.Position).Magnitude > 10000 then
+                    game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("requestEntrance",Vector3.new(923.21252441406, 126.9760055542, 32852.83203125))
+                end
+            elseif Level == 1350 or Level <= 1374 then
+                Mon = "Arctic Warrior [Lv. 1350]"
+                LQuest = 1
+                NQuest = "FrostQuest"
+                NameMon = "Arctic Warrior"
+                CFrameQuest = CFrame.new(5667.6582, 26.7997818, -6486.08984, -0.933587909, 0, -0.358349502, 0, 1, 0, 0.358349502, 0, -0.933587909)
+                if _G.AutoFarm and (CFrameQuest.Position - game.Players.LocalPlayer.Character.HumanoidRootPart.Position).Magnitude > 10000 then
+                    game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("requestEntrance",Vector3.new(-6508.5581054688, 5000.034996032715, -132.83953857422))
+                end
+            elseif Level == 1375 or Level <= 1424 then
+                Mon = "Snow Lurker [Lv. 1375]"
+                LQuest = 2
+                NQuest = "FrostQuest"
+                NameMon = "Snow Lurker"
+                CFrameQuest = CFrame.new(5667.6582, 26.7997818, -6486.08984, -0.933587909, 0, -0.358349502, 0, 1, 0, 0.358349502, 0, -0.933587909)
+            elseif Level == 1425 or Level <= 1449 then
+                Mon = "Sea Soldier [Lv. 1425]"
+                LQuest = 1
+                NQuest = "ForgottenQuest"
+                NameMon = "Sea Soldier"
+                CFrameQuest = CFrame.new(-3054.44458, 235.544281, -10142.8193, 0.990270376, -0, -0.13915664, 0, 1, -0, 0.13915664, 0, 0.990270376)
+            elseif Level >= 1450 then
+                Mon = "Water Fighter [Lv. 1450]"
+                LQuest = 2
+                NQuest = "ForgottenQuest"
+                NameMon = "Water Fighter"
+                CFrameQuest = CFrame.new(-3054.44458, 235.544281, -10142.8193, 0.990270376, -0, -0.13915664, 0, 1, -0, 0.13915664, 0, 0.990270376)
+            end
+        elseif W3 then
+            if Level == 1500 or Level <= 1524 then
+                Mon = "Pirate Millionaire [Lv. 1500]"
+                LQuest = 1
+                NQuest = "PiratePortQuest"
+                NameMon = "Pirate Millionaire"
+                CFrameQuest = CFrame.new(-290.074677, 42.9034653, 5581.58984, 0.965929627, -0, -0.258804798, 0, 1, -0, 0.258804798, 0, 0.965929627)
+            elseif Level == 1525 or Level <= 1574 then
+                Mon = "Pistol Billionaire [Lv. 1525]"
+                LQuest = 2
+                NQuest = "PiratePortQuest"
+                NameMon = "Pistol Billionaire"
+                CFrameQuest = CFrame.new(-290.074677, 42.9034653, 5581.58984, 0.965929627, -0, -0.258804798, 0, 1, -0, 0.258804798, 0, 0.965929627)
+            elseif Level == 1575 or Level <= 1599 then
+                Mon = "Dragon Crew Warrior [Lv. 1575]"
+                LQuest = 1
+                NQuest = "AmazonQuest"
+                NameMon = "Dragon Crew Warrior"
+                CFrameQuest = CFrame.new(5832.83594, 51.6806107, -1101.51563, 0.898790359, -0, -0.438378751, 0, 1, -0, 0.438378751, 0, 0.898790359)
+            elseif Level == 1600 or Level <= 1624 then 
+                Mon = "Dragon Crew Archer [Lv. 1600]"
+                NQuest = "AmazonQuest"
+                LQuest = 2
+                NameMon = "Dragon Crew Archer"
+                CFrameQuest = CFrame.new(5833.1147460938, 51.60498046875, -1103.0693359375)
+            elseif Level == 1625 or Level <= 1649 then
+                Mon = "Female Islander [Lv. 1625]"
+                NQuest = "AmazonQuest2"
+                LQuest = 1
+                NameMon = "Female Islander"
+                CFrameQuest = CFrame.new(5446.8793945313, 601.62945556641, 749.45672607422)
+            elseif Level == 1650 or Level <= 1699 then 
+                Mon = "Giant Islander [Lv. 1650]"
+                NQuest = "AmazonQuest2"
+                LQuest = 2
+                NameMon = "Giant Islander"
+                CFrameQuest = CFrame.new(5446.8793945313, 601.62945556641, 749.45672607422)
+            elseif Level == 1700 or Level <= 1724 then
+                Mon = "Marine Commodore [Lv. 1700]"
+                LQuest = 1
+                NQuest = "MarineTreeIsland"
+                NameMon = "Marine Commodore"
+                CFrameQuest = CFrame.new(2180.54126, 27.8156815, -6741.5498, -0.965929747, 0, 0.258804798, 0, 1, 0, -0.258804798, 0, -0.965929747)
+            elseif Level == 1725 or Level <= 1774 then
+                Mon = "Marine Rear Admiral [Lv. 1725]"
+                NameMon = "Marine Rear Admiral"
+                NQuest = "MarineTreeIsland"
+                LQuest = 2
+                CFrameQuest = CFrame.new(2179.98828125, 28.731239318848, -6740.0551757813)
+            elseif Level == 1775 or Level <= 1799 then
+                Mon = "Fishman Raider [Lv. 1775]"
+                LQuest = 1
+                NQuest = "DeepForestIsland3"
+                NameMon = "Fishman Raider"
+                CFrameQuest = CFrame.new(-10581.6563, 330.872955, -8761.18652, -0.882952213, 0, 0.469463557, 0, 1, 0, -0.469463557, 0, -0.882952213)   
+            elseif Level == 1800 or Level <= 1824 then
+                Mon = "Fishman Captain [Lv. 1800]"
+                LQuest = 2
+                NQuest = "DeepForestIsland3"
+                NameMon = "Fishman Captain"
+                CFrameQuest = CFrame.new(-10581.6563, 330.872955, -8761.18652, -0.882952213, 0, 0.469463557, 0, 1, 0, -0.469463557, 0, -0.882952213)   
+            elseif Level == 1825 or Level <= 1849 then
+                Mon = "Forest Pirate [Lv. 1825]"
+                LQuest = 1
+                NQuest = "DeepForestIsland"
+                NameMon = "Forest Pirate"
+                CFrameQuest = CFrame.new(-13234.04, 331.488495, -7625.40137, 0.707134247, -0, -0.707079291, 0, 1, -0, 0.707079291, 0, 0.707134247)
+            elseif Level == 1850 or Level <= 1899 then
+                Mon = "Mythological Pirate [Lv. 1850]"
+                LQuest = 2
+                NQuest = "DeepForestIsland"
+                NameMon = "Mythological Pirate"
+                CFrameQuest = CFrame.new(-13234.04, 331.488495, -7625.40137, 0.707134247, -0, -0.707079291, 0, 1, -0, 0.707079291, 0, 0.707134247)   
+            elseif Level == 1900 or Level <= 1924 then
+                Mon = "Jungle Pirate [Lv. 1900]"
+                LQuest = 1
+                NQuest = "DeepForestIsland2"
+                NameMon = "Jungle Pirate"
+                CFrameQuest = CFrame.new(-12680.3818, 389.971039, -9902.01953, -0.0871315002, 0, 0.996196866, 0, 1, 0, -0.996196866, 0, -0.0871315002)
+            elseif Level == 1925 or Level <= 1974 then
+                Mon = "Musketeer Pirate [Lv. 1925]"
+                LQuest = 2
+                NQuest = "DeepForestIsland2"
+                NameMon = "Musketeer Pirate"
+                CFrameQuest = CFrame.new(-12680.3818, 389.971039, -9902.01953, -0.0871315002, 0, 0.996196866, 0, 1, 0, -0.996196866, 0, -0.0871315002)
+            elseif Level == 1975 or Level <= 1999 then
+                Mon = "Reborn Skeleton [Lv. 1975]"
+                LQuest = 1
+                NQuest = "HauntedQuest1"
+                NameMon = "Reborn Skeleton"
+                CFrameQuest = CFrame.new(-9479.2168, 141.215088, 5566.09277, 0, 0, 1, 0, 1, -0, -1, 0, 0)
+            elseif Level == 2000 or Level <= 2024 then
+                Mon = "Living Zombie [Lv. 2000]"
+                LQuest = 2
+                NQuest = "HauntedQuest1"
+                NameMon = "Living Zombie"
+                CFrameQuest = CFrame.new(-9479.2168, 141.215088, 5566.09277, 0, 0, 1, 0, 1, -0, -1, 0, 0)
+            elseif Level == 2025 or Level <= 2049 then
+                Mon = "Demonic Soul [Lv. 2025]"
+                LQuest = 1
+                NQuest = "HauntedQuest2"
+                NameMon = "Demonic Soul"
+                CFrameQuest = CFrame.new(-9516.99316, 172.017181, 6078.46533, 0, 0, -1, 0, 1, 0, 1, 0, 0) 
+            elseif Level == 2050 or Level <= 2074 then
+                Mon = "Posessed Mummy [Lv. 2050]"
+                LQuest = 2
+                NQuest = "HauntedQuest2"
+                NameMon = "Posessed Mummy"
+                CFrameQuest = CFrame.new(-9516.99316, 172.017181, 6078.46533, 0, 0, -1, 0, 1, 0, 1, 0, 0)
+            elseif Level == 2075 or Level <= 2099 then
+                Mon = "Peanut Scout [Lv. 2075]"
+                LQuest = 1
+                NQuest = "NutsIslandQuest"
+                NameMon = "Peanut Scout"
+                CFrameQuest = CFrame.new(-2104.3908691406, 38.104167938232, -10194.21875, 0, 0, -1, 0, 1, 0, 1, 0, 0)
+            elseif Level == 2100 or Level <= 2124 then
+                Mon = "Peanut President [Lv. 2100]"
+                LQuest = 2
+                NQuest = "NutsIslandQuest"
+                NameMon = "Peanut President"
+                CFrameQuest = CFrame.new(-2104.3908691406, 38.104167938232, -10194.21875, 0, 0, -1, 0, 1, 0, 1, 0, 0)
+            elseif Level == 2125 or Level <= 2149 then
+                Mon = "Ice Cream Chef [Lv. 2125]"
+                LQuest = 1
+                NQuest = "IceCreamIslandQuest"
+                NameMon = "Ice Cream Chef"
+                CFrameQuest = CFrame.new(-820.64825439453, 65.819526672363, -10965.795898438, 0, 0, -1, 0, 1, 0, 1, 0, 0)
+            elseif Level == 2150 or Level <= 2199 then
+                Mon = "Ice Cream Commander [Lv. 2150]"
+                LQuest = 2
+                NQuest = "IceCreamIslandQuest"
+                NameMon = "Ice Cream Commander"
+                CFrameQuest = CFrame.new(-820.64825439453, 65.819526672363, -10965.795898438, 0, 0, -1, 0, 1, 0, 1, 0, 0)
+            elseif Level == 2200 or Level <= 2224 then
+                Mon = "Cookie Crafter [Lv. 2200]"
+                LQuest = 1
+                NQuest = "CakeQuest1"
+                NameMon = "Cookie Crafter"
+                CFrameQuest = CFrame.new(-2021.32007, 37.7982254, -12028.7295, 0.957576931, -8.80302053e-08, 0.288177818, 6.9301187e-08, 1, 7.51931211e-08, -0.288177818, -5.2032135e-08, 0.957576931)
+            elseif Level == 2225 or Level <= 2249 then
+                Mon = "Cake Guard [Lv. 2225]"
+                LQuest = 2
+                NQuest = "CakeQuest1"
+                NameMon = "Cake Guard"
+                CFrameQuest = CFrame.new(-2021.32007, 37.7982254, -12028.7295, 0.957576931, -8.80302053e-08, 0.288177818, 6.9301187e-08, 1, 7.51931211e-08, -0.288177818, -5.2032135e-08, 0.957576931)
+            elseif Level == 2250 or Level <= 2274 then
+                Mon = "Baking Staff [Lv. 2250]"
+                LQuest = 1
+                NQuest = "CakeQuest2"
+                NameMon = "Baking Staff"
+                CFrameQuest = CFrame.new(-1927.91602, 37.7981339, -12842.5391, -0.96804446, 4.22142143e-08, 0.250778586, 4.74911062e-08, 1, 1.49904711e-08, -0.250778586, 2.64211941e-08, -0.96804446)
+            elseif Level == 2275 or Level <=2299 then
+                Mon = "Head Baker [Lv. 2275]"
+                LQuest = 2
+                NQuest = "CakeQuest2"
+                NameMon = "Head Baker"
+                CFrameQuest = CFrame.new(-1927.91602, 37.7981339, -12842.5391, -0.96804446, 4.22142143e-08, 0.250778586, 4.74911062e-08, 1, 1.49904711e-08, -0.250778586, 2.64211941e-08, -0.96804446)
+         elseif Level == 2300 or Level <= 2324 then
+               Mon = "Cocoa Warrior [Lv. 2300]"
+               LQuest = 1
+               NQuest = "ChocQuest1"
+               NameMon = "Cocoa Warrior"
+               CFrameQuest = CFrame.new(231.742981, 25.3354111, -12199.0537, 0.998278677, -5.16006757e-08, 0.0586484075, 4.79685092e-08, 1, 6.33390442e-08, -0.0586484075, -6.04167383e-08, 0.998278677)
+              elseif Level == 2325 or Level <= 2349 then
+               Mon = "Chocolate Bar Battler [Lv. 2325]"
+               LQuest = 2
+               NQuest = "ChocQuest1"
+               NameMon = "Chocolate Bar Battler"
+              CFrameQuest = CFrame.new(231.742981, 25.3354111, -12199.0537, 0.998278677, -5.16006757e-08, 0.0586484075, 4.79685092e-08, 1, 6.33390442e-08, -0.0586484075, -6.04167383e-08, 0.998278677)
+              elseif Level == 2350 or Level <= 2374 then
+               Mon = "Sweet Thief [Lv. 2350]"
+               LQuest = 1
+               NQuest = "ChocQuest2"
+               NameMon = "Sweet Thief"
+              CFrameQuest = CFrame.new(149.867218, 24.8196201, -12775.5283, -0.0371122323, -7.14229245e-08, -0.99931109, -6.93553162e-08, 1, -6.88964548e-08, 0.99931109, 6.6750637e-08, -0.0371122323)
+             elseif Level == 2375 or Level <= 2400 then
+               Mon = "Candy Rebel [Lv. 2375]"
+               LQuest = 2
+               NQuest = "ChocQuest2"
+               NameMon = "Candy Rebel"
+              CFrameQuest = CFrame.new(149.867218, 24.8196201, -12775.5283, -0.0371122323, -7.14229245e-08, -0.99931109, -6.93553162e-08, 1, -6.88964548e-08, 0.99931109, 6.6750637e-08, -0.0371122323)
+            elseif Level == 2400 or Level <= 2424 then
+               Mon = "Candy Pirate [Lv. 2400]"
+               LQuest = 1
+               NQuest = "CandyQuest1"
+               NameMon = "Candy Pirate"
+              CFrameQuest = CFrame.new(-1231.29004, 91.3840179, -14434.6465, -0.333769143, 4.57979716e-08, 0.942654848, -1.57369762e-08, 1, -5.41560752e-08, -0.942654848, -3.29101617e-08, -0.333769143)
+             elseif Level >= 2425 then
+               Mon = "Snow Demon [Lv. 2425]"
+               LQuest = 2
+               NQuest = "CandyQuest1"
+               NameMon = "Snow Demon"
+              CFrameQuest = CFrame.new(-940.256104, 63.1305504, -14555.0703, 0.221367463, -5.74154591e-08, -0.975190461, 8.0360671e-08, 1, -4.06343403e-08, 0.975190461, -6.93718434e-08, 0.221367463)
+        end
+    end
+end
+
+function Hop()
+        local PlaceID = game.PlaceId
+        local AllIDs = {}
+        local foundAnything = ""
+        local actualHour = os.date("!*t").hour
+        local Deleted = false
+        function TPReturner()
+            local Site;
+            if foundAnything == "" then
+                Site = game.HttpService:JSONDecode(game:HttpGet('https://games.roblox.com/v1/games/' .. PlaceID .. '/servers/Public?sortOrder=Asc&limit=100'))
+            else
+                Site = game.HttpService:JSONDecode(game:HttpGet('https://games.roblox.com/v1/games/' .. PlaceID .. '/servers/Public?sortOrder=Asc&limit=100&cursor=' .. foundAnything))
+            end
+            local ID = ""
+            if Site.nextPageCursor and Site.nextPageCursor ~= "null" and Site.nextPageCursor ~= nil then
+                foundAnything = Site.nextPageCursor
+            end
+            local num = 0;
+            for i,v in pairs(Site.data) do
+                local Possible = true
+                ID = tostring(v.id)
+                if tonumber(v.maxPlayers) > tonumber(v.playing) then
+                    for _,Existing in pairs(AllIDs) do
+                        if num ~= 0 then
+                            if ID == tostring(Existing) then
+                                Possible = false
+                            end
+                        else
+                            if tonumber(actualHour) ~= tonumber(Existing) then
+                                local delFile = pcall(function()
+                                    AllIDs = {}
+                                    table.insert(AllIDs, actualHour)
+                                end)
+                            end
+                        end
+                        num = num + 1
+                    end
+                    if Possible == true then
+                        table.insert(AllIDs, ID)
+                        wait()
+                        pcall(function()
+                            wait()
+                            game:GetService("TeleportService"):TeleportToPlaceInstance(PlaceID, ID, game.Players.LocalPlayer)
+                        end)
+                        wait(4)
+                    end
+                end
+            end
+        end
+        function Teleport() 
+            while wait() do
+                pcall(function()
+                    TPReturner()
+                    if foundAnything ~= "" then
+                        TPReturner()
+                    end
+                end)
+            end
+        end
+        Teleport()
+    end                   
+    
+	function isnil(thing)
+		return (thing == nil)
+	end
+	local function round(n)
+		return math.floor(tonumber(n) + 0.5)
+	end
+	Number = math.random(1, 1000000)
+	function UpdateEspPlayer()
+		for i,v in pairs(game:GetService'Players':GetChildren()) do
+			pcall(function()
+				if not isnil(v.Character) then
+					if ESPPlayer then
+						if not isnil(v.Character.Head) and not v.Character.Head:FindFirstChild('NameEsp'..Number) then
+							local bill = Instance.new('BillboardGui',v.Character.Head)
+							bill.Name = 'NameEsp'..Number
+							bill.ExtentsOffset = Vector3.new(0, 1, 0)
+							bill.Size = UDim2.new(1,200,1,30)
+							bill.Adornee = v.Character.Head
+							bill.AlwaysOnTop = true
+							local name = Instance.new('TextLabel',bill)
+							name.Font = "GothamBold"
+							name.FontSize = "Size14"
+							name.TextWrapped = true
+							name.Text = (v.Name ..' \n'.. round((game:GetService('Players').LocalPlayer.Character.Head.Position - v.Character.Head.Position).Magnitude/3) ..' M')
+							name.Size = UDim2.new(1,0,1,0)
+							name.TextYAlignment = 'Top'
+							name.BackgroundTransparency = 1
+							name.TextStrokeTransparency = 0.5
+							if v.Team == game.Players.LocalPlayer.Team then
+								name.TextColor3 = Color3.new(0,255,0)
+							else
+								name.TextColor3 = Color3.new(255,0,0)
+							end
+						else
+							v.Character.Head['NameEsp'..Number].TextLabel.Text = (v.Name ..' | '.. round((game:GetService('Players').LocalPlayer.Character.Head.Position - v.Character.Head.Position).Magnitude/3) ..' M\nHealth : ' .. round(v.Character.Humanoid.Health*100/v.Character.Humanoid.MaxHealth) .. '%')
+						end
+					else
+						if v.Character.Head:FindFirstChild('NameEsp'..Number) then
+							v.Character.Head:FindFirstChild('NameEsp'..Number):Destroy()
+						end
+					end
+				end
+			end)
+		end
+	end
+    
+    function UpdateIslandESP() 
+        for i,v in pairs(game:GetService("Workspace")["_WorldOrigin"].Locations:GetChildren()) do
+            pcall(function()
+                if IslandESP then 
+                    if v.Name ~= "Sea" then
+                        if not v:FindFirstChild('NameEsp') then
+                            local bill = Instance.new('BillboardGui',v)
+                            bill.Name = 'NameEsp'
+                            bill.ExtentsOffset = Vector3.new(0, 1, 0)
+                            bill.Size = UDim2.new(1,200,1,30)
+                            bill.Adornee = v
+                            bill.AlwaysOnTop = true
+                            local name = Instance.new('TextLabel',bill)
+                            name.Font = "GothamBold"
+                            name.FontSize = "Size14"
+                            name.TextWrapped = true
+                            name.Size = UDim2.new(1,0,1,0)
+                            name.TextYAlignment = 'Top'
+                            name.BackgroundTransparency = 1
+                            name.TextStrokeTransparency = 0.5
+                            name.TextColor3 = Color3.fromRGB(80, 245, 245)
+                        else
+                            v['NameEsp'].TextLabel.Text = (v.Name ..'   \n'.. round((game:GetService('Players').LocalPlayer.Character.Head.Position - v.Position).Magnitude/3) ..' M')
+                        end
+                    end
+                else
+                    if v:FindFirstChild('NameEsp') then
+                        v:FindFirstChild('NameEsp'):Destroy()
+                    end
+                end
+            end)
+        end
+    end
+    
+    function UpdateChestEsp() 
+        for i,v in pairs(game:GetService("Workspace"):GetChildren()) do
+            pcall(function()
+                if string.find(v.Name,"Chest") then
+                    if ChestESP then
+                        if string.find(v.Name,"Chest") then
+                            if not v:FindFirstChild('NameEsp'..Number) then
+                                local bill = Instance.new('BillboardGui',v)
+                                bill.Name = 'NameEsp'..Number
+                                bill.ExtentsOffset = Vector3.new(0, 1, 0)
+                                bill.Size = UDim2.new(1,200,1,30)
+                                bill.Adornee = v
+                                bill.AlwaysOnTop = true
+                                local name = Instance.new('TextLabel',bill)
+                                name.Font = "GothamBold"
+                                name.FontSize = "Size14"
+                                name.TextWrapped = true
+                                name.Size = UDim2.new(1,0,1,0)
+                                name.TextYAlignment = 'Top'
+                                name.BackgroundTransparency = 1
+                                name.TextStrokeTransparency = 0.5
+                                name.TextColor3 = Color3.fromRGB(0, 255, 250)
+                            if v.Name == "Chest1" then
+                                name.Text = ("Chest 1" ..' \n'.. round((game:GetService('Players').LocalPlayer.Character.Head.Position - v.Position).Magnitude/3) ..' M')
+                            end
+                            if v.Name == "Chest2" then
+                                name.Text = ("Chest 2" ..' \n'.. round((game:GetService('Players').LocalPlayer.Character.Head.Position - v.Position).Magnitude/3) ..' M')
+                            end
+                        if v.Name == "Chest3" then
+                            name.Text = ("Chest 3" ..' \n'.. round((game:GetService('Players').LocalPlayer.Character.Head.Position - v.Position).Magnitude/3) ..' M')
+                        end
+                        else
+                            v['NameEsp'..Number].TextLabel.Text = (v.Name ..'   \n'.. round((game:GetService('Players').LocalPlayer.Character.Head.Position - v.Position).Magnitude/3) ..' M')
+                        end
+                    end
+                else
+                    if v:FindFirstChild('NameEsp'..Number) then
+                    v:FindFirstChild('NameEsp'..Number):Destroy()
+                    end
+                end
+                end
+            end)
+        end
+    end
+    
+    function UpdateBfEsp() 
+        for i,v in pairs(game:GetService("Workspace"):GetChildren()) do
+            pcall(function()
+                if DevilFruitESP then
+                    if string.find(v.Name, "Fruit") then   
+                        if not v.Handle:FindFirstChild('NameEsp'..Number) then
+                            local bill = Instance.new('BillboardGui',v.Handle)
+                            bill.Name = 'NameEsp'..Number
+                            bill.ExtentsOffset = Vector3.new(0, 1, 0)
+                            bill.Size = UDim2.new(1,200,1,30)
+                            bill.Adornee = v.Handle
+                            bill.AlwaysOnTop = true
+                            local name = Instance.new('TextLabel',bill)
+                            name.Font = "GothamBold"
+                            name.FontSize = "Size14"
+                            name.TextWrapped = true
+                            name.Size = UDim2.new(1,0,1,0)
+                            name.TextYAlignment = 'Top'
+                            name.BackgroundTransparency = 1
+                            name.TextStrokeTransparency = 0.5
+                            name.TextColor3 = Color3.fromRGB(255, 0, 0)
+                            name.Text = (v.Name ..' \n'.. round((game:GetService('Players').LocalPlayer.Character.Head.Position - v.Handle.Position).Magnitude/3) ..' M')
+                        else
+                            v.Handle['NameEsp'..Number].TextLabel.Text = (v.Name ..'   \n'.. round((game:GetService('Players').LocalPlayer.Character.Head.Position - v.Handle.Position).Magnitude/3) ..' M')
+                        end
+                    end
+                else
+                    if v.Handle:FindFirstChild('NameEsp'..Number) then
+                        v.Handle:FindFirstChild('NameEsp'..Number):Destroy()
+                        end
+                end
+            end)
+        end
+    end
+    
+    function UpdateFlowerEsp() 
+        for i,v in pairs(game:GetService("Workspace"):GetChildren()) do
+            pcall(function()
+                if v.Name == "Flower2" or v.Name == "Flower1" then
+                    if FlowerESP then 
+                        if not v:FindFirstChild('NameEsp'..Number) then
+                            local bill = Instance.new('BillboardGui',v)
+                            bill.Name = 'NameEsp'..Number
+                            bill.ExtentsOffset = Vector3.new(0, 1, 0)
+                            bill.Size = UDim2.new(1,200,1,30)
+                            bill.Adornee = v
+                            bill.AlwaysOnTop = true
+                            local name = Instance.new('TextLabel',bill)
+                            name.Font = "GothamBold"
+                            name.FontSize = "Size14"
+                            name.TextWrapped = true
+                            name.Size = UDim2.new(1,0,1,0)
+                            name.TextYAlignment = 'Top'
+                            name.BackgroundTransparency = 1
+                            name.TextStrokeTransparency = 0.5
+                            name.TextColor3 = Color3.fromRGB(255, 0, 0)
+                        if v.Name == "Flower1" then 
+                            name.Text = ("Blue Flower" ..' \n'.. round((game:GetService('Players').LocalPlayer.Character.Head.Position - v.Position).Magnitude/3) ..' M')
+                            name.TextColor3 = Color3.fromRGB(255, 0, 0)
+                        end
+                        if v.Name == "Flower2" then
+                            name.Text = ("Red Flower" ..' \n'.. round((game:GetService('Players').LocalPlayer.Character.Head.Position - v.Position).Magnitude/3) ..' M')
+                            name.TextColor3 = Color3.fromRGB(255, 0, 0)
+                        end
+                    else
+                        v['NameEsp'..Number].TextLabel.Text = (v.Name ..'   \n'.. round((game:GetService('Players').LocalPlayer.Character.Head.Position - v.Position).Magnitude/3) ..' M')
+                    end
+                    else
+                        if v:FindFirstChild('NameEsp'..Number) then
+                            v:FindFirstChild('NameEsp'..Number):Destroy()
+                        end
+                    end
+                end   
+            end)
+        end
+    end
+    
+    function InfAb()
+        if InfAbility then
+            if not game:GetService("Players").LocalPlayer.Character.HumanoidRootPart:FindFirstChild("Agility") then
+                local inf = Instance.new("ParticleEmitter")
+                inf.Acceleration = Vector3.new(0,0,0)
+                inf.Archivable = true
+                inf.Drag = 20
+                inf.EmissionDirection = Enum.NormalId.Top
+                inf.Enabled = true
+                inf.Lifetime = NumberRange.new(0,0)
+                inf.LightInfluence = 0
+                inf.LockedToPart = true
+                inf.Name = "Agility"
+                inf.Rate = 500
+                local numberKeypoints2 = {
+                    NumberSequenceKeypoint.new(0, 0);
+                    NumberSequenceKeypoint.new(1, 4); 
+                }
+                inf.Size = NumberSequence.new(numberKeypoints2)
+                inf.RotSpeed = NumberRange.new(9999, 99999)
+                inf.Rotation = NumberRange.new(0, 0)
+                inf.Speed = NumberRange.new(30, 30)
+                inf.SpreadAngle = Vector2.new(0,0,0,0)
+                inf.Texture = ""
+                inf.VelocityInheritance = 0
+                inf.ZOffset = 2
+                inf.Transparency = NumberSequence.new(0)
+                inf.Color = ColorSequence.new(Color3.fromRGB(0,0,0),Color3.fromRGB(0,0,0))
+                inf.Parent = game:GetService("Players").LocalPlayer.Character.HumanoidRootPart
+            end
+        else
+            if game:GetService("Players").LocalPlayer.Character.HumanoidRootPart:FindFirstChild("Agility") then
+                game:GetService("Players").LocalPlayer.Character.HumanoidRootPart:FindFirstChild("Agility"):Destroy()
+            end
+        end
+    end
+    
+    local LocalPlayer = game:GetService'Players'.LocalPlayer
+    local originalstam = LocalPlayer.Character.Energy.Value
+    function infinitestam()
+        LocalPlayer.Character.Energy.Changed:connect(function()
+            if InfiniteEnergy then
+                LocalPlayer.Character.Energy.Value = originalstam
+            end 
+        end)
+    end
+    
+    spawn(function()
+        pcall(function()
+            while wait(.1) do
+                if InfiniteEnergy then
+                    wait(0.1)
+                    originalstam = LocalPlayer.Character.Energy.Value
+                    infinitestam()
+                end
+            end
+        end)
+    end)
+    
+    function NoDodgeCool()
+        if nododgecool then
+            for i,v in next, getgc() do
+                if game:GetService("Players").LocalPlayer.Character.Dodge then
+                    if typeof(v) == "function" and getfenv(v).script == game:GetService("Players").LocalPlayer.Character.Dodge then
+                        for i2,v2 in next, getupvalues(v) do
+                            if tostring(v2) == "0.1" then
+                            repeat wait(.1)
+                                setupvalue(v,i2,0)
+                            until not nododgecool
+                            end
+                        end
+                    end
+                end
+            end
+        end
+    end
+    
+    function fly()
+        local mouse=game:GetService("Players").LocalPlayer:GetMouse''
+        localplayer=game:GetService("Players").LocalPlayer
+        game:GetService("Players").LocalPlayer.Character:WaitForChild("HumanoidRootPart")
+        local torso = game:GetService("Players").LocalPlayer.Character.HumanoidRootPart
+        local speedSET=25
+        local keys={a=false,d=false,w=false,s=false}
+        local e1
+        local e2
+        local function start()
+            local pos = Instance.new("BodyPosition",torso)
+            local gyro = Instance.new("BodyGyro",torso)
+            pos.Name="EPIXPOS"
+            pos.maxForce = Vector3.new(math.huge, math.huge, math.huge)
+            pos.position = torso.Position
+            gyro.maxTorque = Vector3.new(9e9, 9e9, 9e9)
+            gyro.CFrame = torso.CFrame
+            repeat
+                    wait()
+                    localplayer.Character.Humanoid.PlatformStand=true
+                    local new=gyro.CFrame - gyro.CFrame.p + pos.position
+                    if not keys.w and not keys.s and not keys.a and not keys.d then
+                    speed=1
+                    end
+                    if keys.w then
+                    new = new + workspace.CurrentCamera.CoordinateFrame.lookVector * speed
+                    speed=speed+speedSET
+                    end
+                    if keys.s then
+                    new = new - workspace.CurrentCamera.CoordinateFrame.lookVector * speed
+                    speed=speed+speedSET
+                    end
+                    if keys.d then
+                    new = new * CFrame.new(speed,0,0)
+                    speed=speed+speedSET
+                    end
+                    if keys.a then
+                    new = new * CFrame.new(-speed,0,0)
+                    speed=speed+speedSET
+                    end
+                    if speed>speedSET then
+                    speed=speedSET
+                    end
+                    pos.position=new.p
+                    if keys.w then
+                    gyro.CFrame = workspace.CurrentCamera.CoordinateFrame*CFrame.Angles(-math.rad(speed*15),0,0)
+                    elseif keys.s then
+                    gyro.CFrame = workspace.CurrentCamera.CoordinateFrame*CFrame.Angles(math.rad(speed*15),0,0)
+                    else
+                    gyro.CFrame = workspace.CurrentCamera.CoordinateFrame
+                    end
+            until not Fly
+            if gyro then 
+                    gyro:Destroy() 
+            end
+            if pos then 
+                    pos:Destroy() 
+            end
+            flying=false
+            localplayer.Character.Humanoid.PlatformStand=false
+            speed=0
+        end
+        e1=mouse.KeyDown:connect(function(key)
+            if not torso or not torso.Parent then 
+                    flying=false e1:disconnect() e2:disconnect() return 
+            end
+            if key=="w" then
+                keys.w=true
+            elseif key=="s" then
+                keys.s=true
+            elseif key=="a" then
+                keys.a=true
+            elseif key=="d" then
+                keys.d=true
+            end
+        end)
+        e2=mouse.KeyUp:connect(function(key)
+            if key=="w" then
+                keys.w=false
+            elseif key=="s" then
+                keys.s=false
+            elseif key=="a" then
+                keys.a=false
+            elseif key=="d" then
+                keys.d=false
+            end
+        end)
+        start()
+    end
+    
+    function Click()
+        game:GetService'VirtualUser':CaptureController()
+        game:GetService'VirtualUser':Button1Down(Vector2.new(1280, 672))
+    end
+    
+    function AutoHaki()
+        if not game:GetService("Players").LocalPlayer.Character:FindFirstChild("HasBuso") then
+            game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("Buso")
+        end
+    end
+    
+    function UnEquipWeapon(Weapon)
+        if game.Players.LocalPlayer.Character:FindFirstChild(Weapon) then
+            _G.NotAutoEquip = true
+            wait(.5)
+            game.Players.LocalPlayer.Character:FindFirstChild(Weapon).Parent = game.Players.LocalPlayer.Backpack
+            wait(.1)
+            _G.NotAutoEquip = false
+        end
+    end
+    
+    function EquipWeapon(ToolSe)
+        if not _G.NotAutoEquip then
+            if game.Players.LocalPlayer.Backpack:FindFirstChild(ToolSe) then
+                Tool = game.Players.LocalPlayer.Backpack:FindFirstChild(ToolSe)
+                wait(.1)
+                game.Players.LocalPlayer.Character.Humanoid:EquipTool(Tool)
+            end
+        end
+    end
+    function MouseTween(P1)
+    local Dis = (P1.Position - game.Players.LocalPlayer.Character.HumanoidRootPart.Position).Magnitude
+    local Speed
+    if Dis < 1000 then
+        Speed = 300
+    elseif Dis >= 100 then
+        Speed = 200
+    end
+    if not game:GetService("Players").LocalPlayer.Character.HumanoidRootPart:FindFirstChild("BodyClip") then
+        local Noclip = Instance.new("BodyVelocity")
+        Noclip.Name = "BodyClip"
+        Noclip.Parent = game:GetService("Players").LocalPlayer.Character.HumanoidRootPart
+        Noclip.MaxForce = Vector3.new(100000,100000,100000)
+        Noclip.Velocity = Vector3.new(0,0,0)
+    end
+    local tween = game:GetService("TweenService"):Create(game:GetService("Players")["LocalPlayer"].Character.HumanoidRootPart,TweenInfo.new(Dis/Speed,Enum.EasingStyle.Linear),{CFrame = P1})
+    tween:Play()
+    if tween.Completed then
+        game:GetService("Players").LocalPlayer.Character.HumanoidRootPart:FindFirstChild("BodyClip"):Destroy()
+    else
+        return
+    end
+end
+
+spawn(function()
+    while task.wait() do
+        pcall(function()
+            if _G.AutoFarm then
+                CheckQuest()
+                if not string.find(game:GetService("Players").LocalPlayer.PlayerGui.Main.Quest.Container.QuestTitle.Title.Text,NameMon) then
+                    game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("AbandonQuest")
+                end
+                if game:GetService("Players").LocalPlayer.PlayerGui.Main.Quest.Visible == true then
+                    for i,v in pairs(game.Workspace.Enemies:GetChildren()) do
+                        if v.Name == Mon then
+                            if v:FindFirstChild("HumanoidRootPart") then
+                                repeat task.wait()
+                                    MouseTween(v.HumanoidRootPart.CFrame * CFrame.new(0,25,0))
+                                until not _G.AutoFarm or not v.Parent or v.Humanoid.Health <= 0
+                            end
+                        end
+                    end
+                    for x,y in pairs(game.ReplicatedStorage:GetChildren()) do
+                        if y.Name == Mon then
+                            if y:FindFirstChild("HumanoidRootPart") then
+                                repeat task.wait()
+                                    MouseTween(y.HumanoidRootPart.CFrame * CFrame.new(0,25,0))
+                                until not _G.AutoFarm or not y.Parent or y.Humanoid.Health <= 0
+                            end
+                        end
+                    end
+                    for i,v in pairs(game:GetService("Workspace")["_WorldOrigin"].EnemySpawns:GetChildren()) do
+                        if string.find(v.Name,NameMon) then
+                            if (game.Players.LocalPlayer.Character.HumanoidRootPart.Position - v.Position).Magnitude >= 10 then
+                                MouseTween(v.CFrame * CFrame.new(0,25,0))
+                            end
+                        end
+                    end
+                else
+                    MouseTween(CFrameQuest)
+                    if (game.Players.LocalPlayer.Character.HumanoidRootPart.Position - CFrameQuest.Position).Magnitude <= 20 then
+                        game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("StartQuest",NQuest,LQuest)
+                    end
+                end
+            end
+        end)
+    end
+end)
+        spawn(function()
+        pcall(function()
+            while wait() do
+                if _G.AutoAdvanceDungeon or _G.AutoDoughtBoss or _G.Auto_Open_Dough_Dungeon or _G.Auto_DungeonMobAura or _G.AutoFarmChest or _G.AutoFarmBossHallow or _G.AutoFarmSwanGlasses or _G.AutoLongSword or _G.AutoBlackSpikeycoat or _G.AutoElectricClaw or _G.AutoFarmGunMastery or _G.AutoHolyTorch or _G.AutoLawRaid or _G.AutoFarmBoss or _G.AutoTwinHooks or _G.AutoOpenSwanDoor or _G.AutoDragon_Trident or _G.AutoSaber or _G.AutoFarmFruitMastery or _G.AutoFarmGunMastery or _G.TeleportIsland or _G.Auto_EvoRace or _G.AutoFarmAllMsBypassType or _G.AutoObservationv2 or _G.AutoMusketeerHat or _G.AutoEctoplasm or _G.AutoRengoku or _G.Auto_Rainbow_Haki or _G.AutoObservation or _G.AutoDarkDagger or _G.Safe_Mode or _G.MasteryFruit or _G.AutoBudySword or _G.AutoOderSword or _G.AutoBounty or _G.AutoAllBoss or _G.Auto_Bounty or _G.AutoSharkman or _G.Auto_Mastery_Fruit or _G.Auto_Mastery_Gun or _G.Auto_Dungeon or _G.Auto_Cavender or _G.Auto_Pole or _G.Auto_Kill_Ply or _G.Auto_Factory or _G.AutoSecondSea or _G.TeleportPly or _G.AutoBartilo or _G.Auto_DarkBoss or _G.GrabChest or _G.AutoFarmBounty or _G.Holy_Torch or _G.AutoFarm or _G.Clip or FarmBoss or _G.AutoElitehunter or _G.AutoThirdSea or _G.Auto_Bone or _G.AutoFarmCandy or _G.AutoHook1 or _G.AutoHook3 == true then
+                    if not game:GetService("Players").LocalPlayer.Character.HumanoidRootPart:FindFirstChild("BodyClip") then
+                        local Noclip = Instance.new("BodyVelocity")
+                        Noclip.Name = "BodyClip"
+                        Noclip.Parent = game:GetService("Players").LocalPlayer.Character.HumanoidRootPart
+                        Noclip.MaxForce = Vector3.new(100000,100000,100000)
+                        Noclip.Velocity = Vector3.new(0,0,0)
+                    end
+                end
+            end
+        end)
+    end)
+    
+    spawn(function()
+        pcall(function()
+            game:GetService("RunService").Stepped:Connect(function()
+                if _G.AutoAdvanceDungeon or _G.AutoDoughtBoss or _G.Auto_Open_Dough_Dungeon or _G.Auto_DungeonMobAura or _G.AutoFarmChest or _G.AutoFarmBossHallow or _G.AutoFarmSwanGlasses or _G.AutoLongSword or _G.AutoBlackSpikeycoat or _G.AutoElectricClaw or _G.AutoFarmGunMastery or _G.AutoHolyTorch or _G.AutoLawRaid or _G.AutoFarmBoss or _G.AutoTwinHooks or _G.AutoOpenSwanDoor or _G.AutoDragon_Trident or _G.AutoSaber or _G.NOCLIP or _G.AutoFarmFruitMastery or _G.AutoFarmGunMastery or _G.TeleportIsland or _G.Auto_EvoRace or _G.AutoFarmAllMsBypassType or _G.AutoObservationv2 or _G.AutoMusketeerHat or _G.AutoEctoplasm or _G.AutoRengoku or _G.Auto_Rainbow_Haki or _G.AutoObservation or _G.AutoDarkDagger or _G.Safe_Mode or _G.MasteryFruit or _G.AutoBudySword or _G.AutoOderSword or _G.AutoBounty or _G.AutoAllBoss or _G.Auto_Bounty or _G.AutoSharkman or _G.Auto_Mastery_Fruit or _G.Auto_Mastery_Gun or _G.Auto_Dungeon or _G.Auto_Cavender or _G.Auto_Pole or _G.Auto_Kill_Ply or _G.Auto_Factory or _G.AutoSecondSea or _G.TeleportPly or _G.AutoBartilo or _G.Auto_DarkBoss or _G.GrabChest or _G.AutoFarmBounty or _G.Holy_Torch or _G.AutoFarm or _G.Clip or _G.AutoElitehunter or _G.AutoThirdSea or _G.Auto_Bone or _G.AutoFarmCandy or _G.AutoHook1 or _G.AutoHook3 == true then
+                    for _, v in pairs(game:GetService("Players").LocalPlayer.Character:GetDescendants()) do
+                        if v:IsA("BasePart") then
+                            v.CanCollide = false    
+                        end
+                    end
+                end
+            end)
+        end)
+    end)
+    
+    spawn(function()
+        while wait() do
+            if _G.AutoDoughtBoss or _G.Auto_Open_Dough_Dungeon or _G.Auto_DungeonMobAura or _G.AutoFarmChest or _G.AutoFarmBossHallow or _G.AutoFarmSwanGlasses or _G.AutoLongSword or _G.AutoBlackSpikeycoat or _G.AutoElectricClaw or _G.AutoFarmGunMastery or _G.AutoHolyTorch or _G.AutoLawRaid or _G.AutoFarmBoss or _G.AutoTwinHooks or _G.AutoOpenSwanDoor or _G.AutoDragon_Trident or _G.AutoSaber or _G.NOCLIP or _G.AutoFarmFruitMastery or _G.AutoFarmGunMastery or _G.TeleportIsland or _G.Auto_EvoRace or _G.AutoFarmAllMsBypassType or _G.AutoObservationv2 or _G.AutoMusketeerHat or _G.AutoEctoplasm or _G.AutoRengoku or _G.Auto_Rainbow_Haki or _G.AutoObservation or _G.AutoDarkDagger or _G.Safe_Mode or _G.MasteryFruit or _G.AutoBudySword or _G.AutoOderSword or _G.AutoAllBoss or _G.Auto_Bounty or _G.AutoSharkman or _G.Auto_Mastery_Fruit or _G.Auto_Mastery_Gun or _G.Auto_Dungeon or _G.Auto_Cavender or _G.Auto_Pole or _G.Auto_Kill_Ply or _G.Auto_Factory or _G.AutoSecondSea or _G.TeleportPly or _G.AutoBartilo or _G.Auto_DarkBoss or _G.AutoFarm or _G.Clip or _G.AutoElitehunter or _G.AutoThirdSea or _G.Auto_Bone or _G.AutoFarmCandy or _G.AutoHook1 or _G.AutoHook3 == true then
+                pcall(function()
+                    game:GetService("ReplicatedStorage").Remotes.CommE:FireServer("Ken",true)
+                end)
+            end    
+        end
+    end)
+    
+    function StopTween(target)
+        if not target then
+            _G.StopTween = true
+            wait()
+            topos(game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.CFrame)
+            wait()
+            if game:GetService("Players").LocalPlayer.Character.HumanoidRootPart:FindFirstChild("BodyClip") then
+                game:GetService("Players").LocalPlayer.Character.HumanoidRootPart:FindFirstChild("BodyClip"):Destroy()
+            end
+            _G.StopTween = false
+            _G.Clip = false
+        end
+    end
+    
+    spawn(function()
+        pcall(function()
+            while wait() do
+                for i,v in pairs(game:GetService("Players").LocalPlayer.Backpack:GetChildren()) do  
+                    if v:IsA("Tool") then
+                        if v:FindFirstChild("RemoteFunctionShoot") then 
+                            SelectWeaponGun = v.Name
+                        end
+                    end
+                end
+            end
+        end)
+    end)
+    
+    game:GetService("Players").LocalPlayer.Idled:connect(function()
+        game:GetService("VirtualUser"):Button2Down(Vector2.new(0,0),workspace.CurrentCamera.CFrame)
+        wait(1)
+        game:GetService("VirtualUser"):Button2Up(Vector2.new(0,0),workspace.CurrentCamera.CFrame)
+    end)
+    
+    spawn(function()
+	game:GetService("RunService").Stepped:Connect(function()
+		if _G.Lol then
+			if not KRNL_LOADED and game.Players.LocalPlayer.Character:FindFirstChild("Humanoid") then
+				setfflag("HumanoidParallelRemoveNoPhysics", "False")
+				setfflag("HumanoidParallelRemoveNoPhysicsNoSimulate2", "False")
+				game.Players.LocalPlayer.Character.Humanoid:ChangeState(11)
+			else
+				if not game:GetService("Workspace"):FindFirstChild("LOL") then
+					local LOL = Instance.new("Part")
+					LOL.Name = "LOL"
+					LOL.Parent = game.Workspace
+					LOL.Anchored = true
+					LOL.Transparency = 0.8
+					LOL.Size = Vector3.new(50,0.5,50)
+				elseif game:GetService("Workspace"):FindFirstChild("LOL") then
+					game.Workspace["LOL"].CFrame = CFrame.new(game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame.X,game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame.Y - 3.8,game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame.Z)
+				end
+			end
+			for _, v in pairs(game.Players.LocalPlayer.Character:GetDescendants()) do
+				if v:IsA("BasePart") then
+					v.CanCollide = false
+				end
+			end
+		end
+	end)
+end) 
+spawn(function()
+    while wait() do
+        if _G.AutoFarm then
+            pcall(function()
+                local QuestTitle = game:GetService("Players").LocalPlayer.PlayerGui.Main.Quest.Container.QuestTitle.Title.Text
+                if not string.find(QuestTitle, NameMon) then
+                    StartMagnet = false
+                    game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("AbandonQuest")
+                end
+                if game:GetService("Players").LocalPlayer.PlayerGui.Main.Quest.Visible == false then
+                    StartMagnet = false
+                    CheckQuest()
+                    repeat wait() topos(CFrameQuest) until (CFrameQuest.Position - game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.Position).Magnitude <= 3 or not _G.AutoFarm
+                    if (CFrameQuest.Position - game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.Position).Magnitude <= 3 then
+                        wait(1.2)
+                        game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("StartQuest",NameQuest,LevelQuest)
+                        wait(0.5)
+                    end
+                elseif game:GetService("Players").LocalPlayer.PlayerGui.Main.Quest.Visible == true then
+                    CheckQuest()
+                    if game:GetService("Workspace").Enemies:FindFirstChild(Mon) then
+                        for i,v in pairs(game:GetService("Workspace").Enemies:GetChildren()) do
+                            if v:FindFirstChild("HumanoidRootPart") and v:FindFirstChild("Humanoid") and v.Humanoid.Health > 0 then
+                                if v.Name == Mon then
+                                    if string.find(game:GetService("Players").LocalPlayer.PlayerGui.Main.Quest.Container.QuestTitle.Title.Text, NameMon) then
+                                        repeat task.wait()
+                                            EquipWeapon(_G.SelectWeapon)
+                                            AutoHaki()                                            
+                                            PosMon = v.HumanoidRootPart.CFrame
+                                            OldPos = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame
+                                            topos(v.HumanoidRootPart.CFrame * CFrame.new(0,35,0))
+                                            v.HumanoidRootPart.CanCollide = false
+                                            v.Humanoid.WalkSpeed = 0
+                                            v.Head.CanCollide = false
+                                            StartMagnet = true
+                                            game:GetService'VirtualUser':CaptureController()
+                                            game:GetService'VirtualUser':Button1Down(Vector2.new(1280, 672))
+                                        until not _G.AutoFarm or v.Humanoid.Health <= 0 or not v.Parent or game:GetService("Players").LocalPlayer.PlayerGui.Main.Quest.Visible == false
+                                    else
+                                        StartMagnet = false
+                                        game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("AbandonQuest")
+                                    end
+                                end
+                            end
+                        end
+                    else
+                        StartMagnet = false
+                        if game:GetService("ReplicatedStorage"):FindFirstChild(Mon) then
+                            topos(game:GetService("ReplicatedStorage"):FindFirstChild(Mon).HumanoidRootPart.CFrame * CFrame.new(0,35,10))
+						else
+							if (CFrameQuest.Position - game.Players.LocalPlayer.Character.HumanoidRootPart.Position).Magnitude <= 15 then
+                                if PosMon ~= nil then
+								    topos(PosMon * CFrame.new(0,35,0))
+                                else
+                                    if OldPos ~= nil then
+                                        topos(PosMon * CFrame.new(0,35,0))
+                                    end
+                                end
+							end
+                        end
+                    end
+                end
+            end)
+        end
+    end
+end)
+
+spawn(function()
+    pcall(function()
+       game:GetService("RunService").Heartbeat:Connect(function()
+        if _G.farmlevel then
+          if not game:GetService("Workspace"):FindFirstChild("LOL") then
+             local Paertaiteen = Instance.new("Part")
+             Paertaiteen.Name = "LOL"
+             Paertaiteen.Parent = game.Workspace
+             Paertaiteen.Anchored = true
+             Paertaiteen.Transparency = 0
+             Paertaiteen.Size = Vector3.new(5,0.5,10)
+             Paertaiteen.Material = "Neon"
+             while true do 
+                 wait(0.1) 
+                 game:GetService('TweenService'):Create(
+                     Paertaiteen,TweenInfo.new(1,Enum.EasingStyle.Linear,Enum.EasingDirection.InOut),
+                 {Color = Color3.fromRGB(255, 0, 0)}):Play() 
+                 wait(.5)
+ 
+                 game:GetService('TweenService'):Create(
+                     Paertaiteen,TweenInfo.new(1,Enum.EasingStyle.Linear,Enum.EasingDirection.InOut),
+                 {Color = Color3.fromRGB(255, 155, 0)}):Play() 
+                 wait(.5)
+ 
+                 game:GetService('TweenService'):Create(
+                     Paertaiteen,TweenInfo.new(1,Enum.EasingStyle.Linear,Enum.EasingDirection.InOut),
+                 {Color = Color3.fromRGB(255, 255, 0)}):Play() 
+                 wait(.5)
+ 
+                 game:GetService('TweenService'):Create(
+                     Paertaiteen,TweenInfo.new(1,Enum.EasingStyle.Linear,Enum.EasingDirection.InOut),
+                 {Color = Color3.fromRGB(0, 255, 0)}):Play() 
+                 wait(.5)
+ 
+                 game:GetService('TweenService'):Create(
+                     Paertaiteen,TweenInfo.new(1,Enum.EasingStyle.Linear,Enum.EasingDirection.InOut),
+                 {Color = Color3.fromRGB(0, 255, 255)}):Play() 
+                 wait(.5)
+ 
+                 game:GetService('TweenService'):Create(
+                     Paertaiteen,TweenInfo.new(1,Enum.EasingStyle.Linear,Enum.EasingDirection.InOut),
+                 {Color = Color3.fromRGB(0, 155, 255)}):Play() 
+                 wait(.5)
+ 
+                 game:GetService('TweenService'):Create(
+                     Paertaiteen,TweenInfo.new(1,Enum.EasingStyle.Linear,Enum.EasingDirection.InOut),
+                 {Color = Color3.fromRGB(255, 0, 255)}):Play() 
+                 wait(.5)
+ 
+                 game:GetService('TweenService'):Create(
+                     Paertaiteen,TweenInfo.new(1,Enum.EasingStyle.Linear,Enum.EasingDirection.InOut),
+                 {Color = Color3.fromRGB(255, 0, 155)}):Play() 
+                 wait(.5)
+             end 
+         elseif game:GetService("Workspace"):FindFirstChild("LOL") then
+             game.Workspace["LOL"].CFrame = CFrame.new(game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame.X,game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame.Y - 3.92,game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame.Z)
+         end
+     else
+         if game:GetService("Workspace"):FindFirstChild("LOL") then
+             game:GetService("Workspace"):FindFirstChild("LOL"):Destroy()
+         end
+        end
+    end)
+ end)
+end)
+
+--ท่า part มันทำให้ fast attack ตีข้าลง กรอ ตีไม่เข้า ให้ ลบ ตรง บรรทัด ที่ 1223 ถึง บรรทัดที่1287 แต่ auto farm อันนี้ part ใต้ตีนมันไม่มี ท่าคุณเอามันออก คุณจะตกลงน้ำ
+
+--bring mob
+spawn(function()
+        while task.wait() do
+            pcall(function()
+                if _G.BringMonster then
+                    CheckQuest()
+                    for i,v in pairs(game:GetService("Workspace").Enemies:GetChildren()) do
+                        if _G.AutoFarm and StartMagnet and v.Name == Mon and (Mon == "Factory Staff [Lv. 800]" or Mon == "Monkey [Lv. 14]" or Mon == "Dragon Crew Warrior [Lv. 1575]" or Mon == "Dragon Crew Archer [Lv. 1600]") and v:FindFirstChild("Humanoid") and v:FindFirstChild("HumanoidRootPart") and v.Humanoid.Health > 0 and (v.HumanoidRootPart.Position - game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.Position).Magnitude <= 220 then
+                            v.HumanoidRootPart.Size = Vector3.new(70,70,70)
+                            v.HumanoidRootPart.CFrame = PosMon
+                            v.Humanoid:ChangeState(14)
+                            v.HumanoidRootPart.CanCollide = false
+                            v.Head.CanCollide = false
+                            if v.Humanoid:FindFirstChild("Animator") then
+                                v.Humanoid.Animator:Destroy()
+                            end
+                            sethiddenproperty(game:GetService("Players").LocalPlayer,"SimulationRadius",math.huge)
+                        elseif _G.AutoFarm and StartMagnet and v.Name == Mon and v:FindFirstChild("Humanoid") and v:FindFirstChild("HumanoidRootPart") and v.Humanoid.Health > 0 and (v.HumanoidRootPart.Position - game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.Position).Magnitude <= 275 then
+                            v.HumanoidRootPart.Size = Vector3.new(70,70,70)
+                            v.HumanoidRootPart.CFrame = PosMon
+                            v.Humanoid:ChangeState(14)
+                            v.HumanoidRootPart.CanCollide = false
+                            v.Head.CanCollide = false
+                            if v.Humanoid:FindFirstChild("Animator") then
+                                v.Humanoid.Animator:Destroy()
+                            end
+                            sethiddenproperty(game:GetService("Players").LocalPlayer,"SimulationRadius",math.huge)
+                        end
+                    end
+                end
+            end)
+        end
+    end)
+
+UesFast = true
+local plr = game.Players.LocalPlayer
+    
+local CbFw = debug.getupvalues(require(plr.PlayerScripts.CombatFramework))
+local CbFw2 = CbFw[2]
+
+function GetCurrentBlade() 
+    local p13 = CbFw2.activeController
+    local ret = p13.blades[1]
+    if not ret then return end
+    while ret.Parent~=game.Players.LocalPlayer.Character do ret=ret.Parent end
+    return ret
+end
+function AttackNoCD() 
+    local AC = CbFw2.activeController
+    for i = 1, 1 do 
+        local bladehit = require(game.ReplicatedStorage.CombatFramework.RigLib).getBladeHits(
+            plr.Character,
+            {plr.Character.HumanoidRootPart},
+            60
+        )
+        local cac = {}
+        local hash = {}
+        for k, v in pairs(bladehit) do
+            if v.Parent:FindFirstChild("HumanoidRootPart") and not hash[v.Parent] then
+                table.insert(cac, v.Parent.HumanoidRootPart)
+                hash[v.Parent] = true
+            end
+        end
+        bladehit = cac
+        if #bladehit > 0 then
+            local u8 = debug.getupvalue(AC.attack, 5)
+            local u9 = debug.getupvalue(AC.attack, 6)
+            local u7 = debug.getupvalue(AC.attack, 4)
+            local u10 = debug.getupvalue(AC.attack, 7)
+            local u12 = (u8 * 798405 + u7 * 727595) % u9
+            local u13 = u7 * 798405
+            (function()
+                u12 = (u12 * u9 + u13) % 1099511627776
+                u8 = math.floor(u12 / u9)
+                u7 = u12 - u8 * u9
+            end)()
+            u10 = u10 + 1
+            debug.setupvalue(AC.attack, 5, u8)
+            debug.setupvalue(AC.attack, 6, u9)
+            debug.setupvalue(AC.attack, 4, u7)
+            debug.setupvalue(AC.attack, 7, u10)
+            pcall(function()
+                for k, v in pairs(AC.animator.anims.basic) do
+                    v:Play()
+                end                  
+            end)
+            if plr.Character:FindFirstChildOfClass("Tool") and AC.blades and AC.blades[1] then 
+                game:GetService("ReplicatedStorage").RigControllerEvent:FireServer("weaponChange",tostring(GetCurrentBlade()))
+                game.ReplicatedStorage.Remotes.Validator:FireServer(math.floor(u12 / 1099511627776 * 16777215), u10)
+                game:GetService("ReplicatedStorage").RigControllerEvent:FireServer("hit", bladehit, i, "") 
+            end
+        end
+    end
+end
+
+require(game.ReplicatedStorage.Util.CameraShaker):Stop()
+task.spawn(function()
+    while task.wait() do
+        pcall(function()
+          if UesFast then
+              if UesFast then
+                AttackNoCD(0.1)
+              end
+          end
+      end)
+    end
+end)
